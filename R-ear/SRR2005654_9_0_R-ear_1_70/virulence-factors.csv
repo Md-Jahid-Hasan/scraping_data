@@ -1,0 +1,16 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,16.59,26092411.0,94.48,91.46,26299
+Staphylococcus aureus GENE 1602 Branch,,-,1.14,1798382.0,40.0,60.0,543
+Staphylococcus aureus GI 33390920,,-,3.05,4795451.0,100.0,100.0,4616
+Staphylococcus aureus GENE dfrA,,-,2.57,4037200.0,81.55,81.55,5618
+Staphylococcus aureus GENE thyA,,-,1.47,2316291.0,100.0,100.0,5890
+Staphylococcus aureus GENE blaZ,,-,0.24,372983.0,49.24,49.24,551
+Staphylococcus aureus GENE AACA-APHD,,-,0.17,261411.0,42.25,42.25,326
+Staphylococcus lentus GENE pre,,-,34.75,54635995.0,100.0,100.0,127695
+Staphylococcus lentus GENE repC,,-,24.31,38222712.0,100.0,100.0,81153
+Staphylococcus lentus GENE tetK,,-,11.01,17310966.0,100.0,100.0,57212
+Staphylococcus lentus GI 60416745,,-,2.35,3695293.0,100.0,100.0,418
+Staphylococcus epidermidis GeneID SEA1545,,-,1.03,1613802.0,100.0,100.0,1855
+Enterococcus faecalis GENE tetL,,-,0.48,751131.0,95.73,94.79,789
+Enterococcus faecium GENE tetL,,-,0.34,535590.0,97.91,100.0,224
+Enterococcus faecalis GENE mobB,,-,0.5,792074.0,91.46,91.46,1274

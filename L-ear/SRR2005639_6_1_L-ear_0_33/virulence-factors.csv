@@ -1,0 +1,5 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,53.29,773407.0,77.6,70.85,716
+Staphylococcus aureus GENE dfrA,,-,18.74,272040.0,47.64,47.64,183
+Staphylococcus lentus GENE tetK,,-,21.03,305192.0,45.26,45.26,476
+Staphylococcus lentus GI 60416745,,-,6.94,100745.0,50.0,50.0,6

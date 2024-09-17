@@ -1,0 +1,5 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tet 2374 Branch,,-,8.57,383116.0,47.83,47.83,11
+Macrolide erm36,,-,67.63,3021926.0,100.0,100.0,4562
+Tetracycline tetK,,-,18.1,808835.0,81.72,81.72,1984
+Beta-lactam-resistance blaTEM 186,,-,5.7,254742.0,81.82,75.0,12

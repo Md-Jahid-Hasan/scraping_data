@@ -1,0 +1,66 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Microbacterium sp. KROCY2_u_t,1305732,0.75,2998,12830
+Dermacoccus sp. Ellin185_u_t,188626,0.03,131,2057
+Dermabacter sp. HFH0086_u_t,1203568,0.04,164,3408
+Propionibacterium sp. 5_U_42AFAA_u_t,450748,4.2,16709,490
+Propionibacteriaceae_u_t,31957,0.04,174,82
+Propionimicrobium_u_t,203133,0.04,150,1186
+Corynebacterium sp. KPL1856_u_t,1203563,1.02,4065,30
+Mobiluncus_u_t,2050,0.02,85,8
+Pseudonocardia sp. P2_u_t,882856,1.19,4748,38382
+Staphylococcus_u_t,1279,0.08,307,330
+Staphylococcus sp. M0480_u_t,1388318,0.31,1245,140
+Streptococcus anginosus group_u_t,671232,0.06,235,34
+Streptococcus sp. 2_1_36FAA_u_t,469609,0.21,828,6735
+Streptococcus_u_t,1301,0.04,148,215
+Lactobacillus_u_t,1578,0.04,148,20
+Veillonella sp. 6_1_27_u_t,450749,0.47,1862,2255
+Veillonella_u_t,29465,0.09,366,54
+Megasphaera_u_t,906,0.04,157,1520
+Selenomonas_u_t,970,0.06,244,1164
+Anaerococcus_u_t,165779,0.03,122,302
+Peptoniphilus_u_t,162289,0.05,201,101
+Parvimonas_u_t,543311,0.02,83,19
+Tissierellia bacterium S7-1-4_u_t,1284708,0.02,97,1387
+Clostridiales_u_t,186802,0.05,212,130
+Acinetobacter sp. CIP 102637_u_t,1144669,4.59,18266,58208
+Acinetobacter calcoaceticus/baumannii complex_u_t,909768,0.03,118,14
+Acinetobacter_u_t,469,0.48,1920,1138
+Psychrobacter sp. 1501(2011)_u_t,1002339,0.02,81,2175
+Pseudomonas_u_t,286,0.15,596,393
+Pseudomonas sp. 313_u_t,1234594,0.06,227,3531
+Aggregatibacter_u_t,416916,0.08,320,386
+Haemophilus_u_t,724,0.02,88,10
+Klebsiella_u_t,570,0.03,98,70
+Pseudoxanthomonas_u_t,83618,0.04,142,9
+Luteimonas_u_t,83614,0.07,288,56
+Xanthomonas_u_t,338,0.03,107,17
+Stenotrophomonas_u_t,40323,0.04,144,29
+Lysobacter_u_t,68,0.03,117,56
+Shewanella sp. ZOR0012_u_t,1339231,0.03,138,1282
+Shewanella_u_t,22,0.03,103,12
+Aeromonas_u_t,642,0.06,228,28
+Roseomonas sp. B5_u_t,1217720,0.05,212,378
+Paracoccus_u_t,265,0.05,196,105
+Rhodobacteraceae_u_t,31989,0.12,478,16
+Brevundimonas sp. EAKA_u_t,1495854,0.17,686,32413
+Alphaproteobacteria_u_t,28211,0.03,106,34
+alpha proteobacterium L41A_u_t,1229204,0.26,1030,30781
+Rhizobium sp. H41_u_t,1510041,0.18,725,2962
+Rhizobiales_u_t,356,0.31,1221,249
+Pseudochrobactrum sp. AO18b_u_t,1201036,0.03,102,2884
+Phyllobacteriaceae_u_t,69277,0.06,223,181
+Achromobacter_u_t,222,0.15,599,45
+Massilia_u_t,149698,0.04,166,18
+Neisseria_u_t,482,0.14,544,187
+Neisseriaceae_u_t,481,0.02,86,18
+Campylobacter_u_t,194,0.02,77,23
+Leptotrichia_u_t,32067,0.06,254,74
+Fusobacterium_u_t,848,0.03,110,124
+candidate division TM7 single-cell isolate TM7c_u_t,447456,0.06,223,462
+candidate division TM7 single-cell isolate TM7b_u_t,447455,0.05,184,83
+candidate division TM7 single-cell isolate TM7a_u_t,447454,0.03,128,1230
+Prevotella sp. ICM33_u_t,1161412,0.1,397,2808
+Prevotella_u_t,838,0.04,150,1699
+Porphyromonas_u_t,836,0.03,103,18
+Capnocytophaga_u_t,1016,0.07,299,1912

@@ -1,0 +1,7 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Trimethoprim dfrC,,-,59.47,13668147.0,100.0,100.0,18782
+Macrolide msrA,,-,16.43,3775943.0,59.04,59.04,23837
+Macrolide mphC,,-,10.81,2484756.0,46.92,46.92,13105
+Macrolide ermX,,-,2.29,525983.0,52.04,52.04,1154
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,10.27,2359998.0,77.99,77.99,4629
+Beta-lactam-resistance blaTEM 183,,-,0.73,168382.0,66.67,44.44,4

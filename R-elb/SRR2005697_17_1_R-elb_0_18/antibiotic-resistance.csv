@@ -1,0 +1,12 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+MDR-Efflux-pump qacA,,-,15.69,780364.0,89.36,86.99,338
+Tetracycline tet 2374 Branch,,-,2.96,147300.0,47.83,47.83,11
+Tetracycline tetK,,-,20.35,1012018.0,91.04,91.04,2686
+Aminoglycoside aadD,,-,11.45,569158.0,76.5,76.5,598
+Trimethoprim dfrC,,-,11.4,566834.0,72.36,72.36,507
+Aminoglycoside aac6' aph2'',,-,9.8,487297.0,55.22,55.22,1254
+Aminoglycoside aadC,,-,7.01,348551.0,48.25,48.25,342
+Macrolide lnuA,,-,5.98,297300.0,48.46,48.46,275
+Macrolide msrA,,-,5.91,293730.0,40.24,40.24,790
+H NS,,-,3.97,197182.0,42.93,42.93,79
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,5.48,272618.0,42.07,42.07,407

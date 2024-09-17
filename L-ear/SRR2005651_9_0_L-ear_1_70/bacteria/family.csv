@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Propionibacteriaceae,31957,25.240139999999997,563310.5800000001,16424
+Corynebacteriaceae,1653,0.12677999999999998,60616.04,1022338
+Micrococcaceae,1268,0.02011,237.31,433
+Staphylococcaceae,90964,20.042899999999996,159500.94999999998,17523
+Carnobacteriaceae,186828,0.07,567,8226
+Peptoniphilaceae,1570339,0.02,186,103
+Caulobacteraceae,76892,0.03,231,4029
+Tannerellaceae,2005525,0.01,95,2751

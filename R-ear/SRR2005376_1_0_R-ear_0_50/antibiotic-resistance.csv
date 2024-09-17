@@ -1,0 +1,9 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tet 2001 Branch,,-,3.29,472259.0,50.09,50.09,343
+Trimethoprim dfrC,,-,26.43,3789826.0,100.0,100.0,5344
+Macrolide ermC,,-,17.91,2568409.0,41.72,44.85,13559
+Aminoglycoside aadC,,-,13.2,1892983.0,100.0,100.0,2551
+Tetracycline tetK,,-,11.43,1639809.0,94.15,94.15,5564
+Quinolone norA,,-,11.3,1621130.0,43.52,43.52,13844
+Macrolide msrA,,-,5.42,777230.0,56.72,56.72,3726
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,11.02,1579767.0,65.87,65.87,3186

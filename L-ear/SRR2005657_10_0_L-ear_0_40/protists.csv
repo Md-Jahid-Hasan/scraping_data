@@ -1,0 +1,3 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Naegleria fowleri,5763,86.23,5398.0,0.35,0.35,3102
+Plasmodium gaboni,647221,13.77,862.0,0.16,0.15,155

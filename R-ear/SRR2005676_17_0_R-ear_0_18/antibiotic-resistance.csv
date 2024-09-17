@@ -1,0 +1,12 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+MDR-Efflux-pump qacA,,-,15.93,765104.0,94.99,86.99,308
+Aminoglycoside a 2394 Branch,,-,7.11,341648.0,57.7,68.9,171
+Aminoglycoside aadD,,-,15.66,752181.0,88.8,88.8,884
+Aminoglycoside aac6' aph2'',,-,11.25,540679.0,72.33,72.33,959
+Tetracycline tetK,,-,11.09,533064.0,67.41,67.41,1037
+Aminoglycoside aadC,,-,7.89,378839.0,45.53,45.53,431
+bleomycin resistance protein BRP,,-,6.94,333358.0,50.16,50.16,324
+Aminoglycoside aph3' III,,-,6.8,326945.0,53.19,53.19,290
+Macrolide msrA,,-,6.69,321301.0,42.0,42.0,929
+Macrolide lnuA,,-,5.2,249852.0,46.78,46.78,167
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,5.44,261415.0,41.32,41.32,373

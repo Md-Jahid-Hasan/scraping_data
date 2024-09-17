@@ -1,0 +1,12 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,45.32,4161,8
+Staphylococcus warneri,1292,3.38,310,99
+Staphylococcus_u_s,1279,2.24,206,1869
+Staphylococcus capitis,29388,0.88,81,28
+Staphylococcus sp. M0480,1388318,19.59,1799,87
+Staphylococcus hominis,1290,17.42,1599,86
+Staphylococcus aureus,1280,4.47,410,49
+Propionibacteriaceae_u_s,31957,2.97,272,58
+Rothia mucilaginosa,43675,1.66,152,686
+Rothia_u_s,32207,1.05,97,29
+Actinomyces neuii,33007,1.02,93,1978

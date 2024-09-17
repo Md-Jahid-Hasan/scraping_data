@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. TE8_u_t,1472720,0.56,202,384
+Staphylococcus_u_t,1279,0.25,88,170
+Streptococcus_u_t,1301,0.34,123,13
+Anaerococcus_u_t,165779,0.28,101,319
+Peptoniphilus_u_t,162289,0.51,183,101
+Corynebacterium sp. KPL1856_u_t,1203563,23.12,8309,42
+Propionibacteriaceae_u_t,31957,2.86,1026,45
+Acinetobacter_u_t,469,0.3,108,8

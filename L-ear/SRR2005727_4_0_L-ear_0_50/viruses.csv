@@ -1,0 +1,16 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus phage CNPH82,398839,9.72,399406.0,11.66,7.12,16810
+Staphylococcus phage Ipla7,1197953,3.68,151182.0,7.94,4.29,6253
+Staphylococcus phage Ipla5,1197952,7.92,325722.0,10.61,4.67,17137
+Staphylococcus phage PH15,399185,3.88,159400.0,7.37,3.22,7225
+Staphylococcus phage 80alpha,53369,2.68,110198.0,4.29,4.65,161
+Staphylococcus phage 6ec,1500386,0.3,12166.0,2.02,1.54,733
+Staphylococcus phage StB20,1147043,69.67,2863874.0,27.84,27.86,250587
+Propionibacterium phage P9.1,1229782,0.25,10350.0,2.06,1.01,44
+Propionibacterium phage P100_1,1229791,0.22,9220.0,1.85,1.06,43
+Propionibacterium phage ATCC29399B_C,1229794,0.24,9872.0,2.0,1.99,32
+Propionibacterium phage P14.4,1229784,0.47,19349.0,3.41,1.46,74
+unclassified Myoviridae,196896,0.17,7034.0,1.62,1.62,38
+Streptococcus phage 20617,1392231,0.18,7277.0,1.19,1.25,319
+Human immunodeficiency virus 1,11676,0.43,17780.0,3.49,3.49,101
+Equine infectious anemia virus,11665,0.19,7974.0,1.28,1.28,154

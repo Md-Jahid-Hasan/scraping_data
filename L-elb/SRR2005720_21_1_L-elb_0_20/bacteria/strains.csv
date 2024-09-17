@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Propionibacteriaceae_u_t,31957,23.38,1040,89
+Staphylococcus_u_t,1279,19.72,877,125
+Acinetobacter_u_t,469,3.07,136,129
+Aeromonas_u_t,642,2.38,106,298

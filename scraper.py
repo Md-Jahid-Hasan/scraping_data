@@ -69,7 +69,7 @@ class Scraper:
                         try:
                             result_ids = self.generate_analysis_id(data['uuid'])
                             for each_result_id in result_ids:
-                                print(f"getting data of {folder}/{data['sample_name']}/{each_result_id['name']}")
+                                print(f"getting data of {folder['title']}/{data['sample_name']}/{each_result_id['name']}")
                                 # calling function for retrieve data
                                 tasks.append(asyncio.create_task(
                                     self.get_table_data(session, data['uuid'], each_result_id['id'], key,

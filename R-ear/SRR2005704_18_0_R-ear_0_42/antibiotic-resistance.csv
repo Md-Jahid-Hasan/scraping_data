@@ -1,0 +1,9 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tet 2374 Branch,,-,2.58,6218168.0,60.87,60.87,644
+MDR-Efflux-pump qacA,,-,0.4,958756.0,93.15,86.99,420
+Phenicol cm 2318 Branch,,-,0.11,267860.0,45.18,45.18,242
+Tetracycline tetK,,-,89.8,216052049.0,98.63,98.63,714750
+Trimethoprim dfrC,,-,6.53,15710326.0,100.0,100.0,21407
+Macrolide msrA,,-,0.2,479336.0,51.68,51.68,1709
+Macrolide ermX,,-,0.19,466220.0,51.87,51.87,928
+Macrolide ermC,,-,0.18,432942.0,40.85,43.96,1554

@@ -1,0 +1,51 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Micrococcus luteus,1270,33.32,11145,39242
+Kocuria palustris,71999,1.41,471,7915
+Kocuria rhizophila,72000,0.37,125,1254
+Nesterenkonia massiliensis,1232429,1.23,410,8797
+Rothia dentocariosa,2047,0.26,87,643
+Microbacterium sp. KROCY2,1305732,1.06,356,1342
+Brevibacterium ravenspurgense,479117,0.47,156,3764
+Tropheryma whipplei,2039,0.67,225,631
+Brachybacterium paraconglomeratum,173362,0.87,292,5626
+Cutibacterium acnes,1747,11.49,3843,51
+Cutibacterium granulosum,33011,0.5,167,985
+Propionibacterium sp. 5_U_42AFAA,450748,11.39,3808,86
+Propionimicrobium_u_s,203133,0.36,122,914
+Corynebacterium jeikeium,38289,0.62,207,2421
+Corynebacterium urealyticum,43771,0.33,111,1238
+Corynebacterium pseudogenitalium,38303,1.25,418,3084
+Corynebacterium tuberculostearicum,38304,1.17,390,2179
+Corynebacterium tuscaniense,302449,0.46,154,3632
+Corynebacterium aurimucosum,169292,0.39,131,2867
+Corynebacterium kroppenstedtii,161879,0.39,129,3154
+Corynebacterium massiliense,441501,0.32,106,2346
+Pseudonocardia sp. P2,882856,5.9,1973,5438
+Staphylococcus epidermidis,1282,2.72,910,30
+Staphylococcus_u_s,1279,0.74,248,6
+Staphylococcus capitis,29388,0.72,242,944
+Staphylococcus xylosus,1288,0.23,76,37
+Lactobacillus gasseri,1596,1.43,479,501
+Lactobacillus crispatus,47770,0.7,235,821
+Aerococcus viridans,1377,1.58,528,4822
+Facklamia hominis,178214,0.23,78,439
+Enterococcus faecalis,1351,0.34,113,6
+Streptococcus sp. HSISS3,1316412,0.55,185,381
+Streptococcus thermophilus,1308,0.25,84,184
+Streptococcus_u_s,1301,0.33,110,22
+Streptococcus mutans,1309,0.3,100,122
+Finegoldia magna,1260,0.31,103,65
+Acinetobacter lwoffii,28090,2.31,773,593
+Acinetobacter sp. CIP 101966,1144662,2.24,750,468
+Acinetobacter_u_s,469,1.4,469,328
+Acinetobacter haemolyticus,29430,1.42,474,736
+Acinetobacter towneri,202956,0.65,218,11
+Acinetobacter johnsonii,40214,0.66,222,988
+Acinetobacter ursingii,108980,0.31,104,43
+Pseudomonas stutzeri,316,2.77,927,64
+Pseudomonas_u_s,286,0.88,293,4267
+Aeromonas_u_s,642,1.05,351,31
+Xanthomonas campestris,339,0.36,121,46
+Klebsiella_u_s,570,0.31,103,62
+Ochrobactrum rhizosphaerae,571254,0.72,242,5749
+Haematobacter massiliensis,195105,0.25,85,2141

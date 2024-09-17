@@ -1,0 +1,10 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tet38,,-,9.78,359206.0,59.38,42.35,362
+Aminoglycoside 2024 Branch,,-,8.5,312468.0,55.78,55.78,200
+Regulator mgrA,,-,18.42,676802.0,85.33,85.33,546
+Phenicol dha1,,-,12.47,458073.0,55.84,55.84,855
+Macrolide ermX,,-,12.41,455915.0,52.4,52.4,876
+MDR-Efflux-pump sav1866,,-,10.26,376882.0,53.73,53.73,700
+Repressor-of-MepA mepR,,-,9.47,348059.0,65.09,65.09,160
+Aminoglycoside aph6 Id,,-,8.5,312369.0,54.71,54.71,221
+Beta-lactam-resistance blaZ,,-,10.2,374922.0,50.25,52.94,144

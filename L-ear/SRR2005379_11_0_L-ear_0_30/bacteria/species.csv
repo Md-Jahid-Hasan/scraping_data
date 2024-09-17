@@ -1,0 +1,16 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Cutibacterium acnes,1747,50.21,1260602,16911
+Cutibacterium granulosum,33011,0.09,2289,6075
+[Propionibacterium] namnetense,1574624,0.02,553,12183
+[Propionibacterium] humerusii,1050843,0.0,78,6
+Propionibacterium sp. MB3007,1410615,48.73,1223392,1199
+Propionibacteriaceae_u_s,31957,0.0,78,29
+Corynebacterium sp. KPL1856,1203563,0.13,3338,15
+Rothia mucilaginosa,43675,0.0,101,662
+Micrococcus luteus,1270,0.03,751,691
+Dermacoccus sp. Ellin185,188626,0.01,375,5094
+Dermacoccus nishinomiyaensis,1274,0.01,147,2087
+Staphylococcus epidermidis,1282,0.49,12353,3197
+Staphylococcus capitis,29388,0.25,6290,3580
+Staphylococcus warneri,1292,0.01,248,8
+Caulobacter sp. JGI 0001013-D04,1157680,0.0,78,1414
