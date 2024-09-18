@@ -35,8 +35,8 @@ class Scraper:
         if self.token == "":
             print("Invalid token is generated, something went wrong")
         else:
-            self.folder_information = self.get_folder_data()
-            asyncio.run(self.parsing_folder())
+            self.folder_information = self.get_folder_data()  # get folder information
+            asyncio.run(self.parsing_folder())                # parsing each folder and download data for each sample
 
         file.close()
 
@@ -101,20 +101,23 @@ class Scraper:
         data_url = f"https://app.cosmosid.com/api/metagenid/v1/files/{sample_data_id}/analysis/{result_id}/{post_tag}?artifact_version=2&filter=filtered"
 
         print(f"getting data of {folder}/{sample_name}/{result_name}")
-        async with session.get(data_url, headers=self.headers) as response:
-            # calling api and pass response data to other method for prepare and download
-            if response.status == 200:
-                response_json = await response.json()
-                # as taxonomy of bacteria has different data format call a different method for download
-                if result_name == "bacteria":
-                    data = self.prepare_table_data_for_bacteria(response_json, folder, sample_name)
-                else:
-                    # other result/category have same data format call two different method call for prepare/mapped data
-                    # and other method for download those data as CSV
-                    analysis_data = response_json['analysis']
-                    analysis_data = analysis_data if analysis_data.get("children", False) else []
-                    data = self.prepare_table_data(analysis_data, [])
-                    self.download_data(data, folder, sample_name, result_name)
+        try:
+            async with session.get(data_url, headers=self.headers) as response:
+                # calling api and pass response data to other method for prepare and download
+                if response.status == 200:
+                    response_json = await response.json()
+                    # as taxonomy of bacteria has different data format call a different method for download
+                    if result_name == "bacteria":
+                        data = self.prepare_table_data_for_bacteria(response_json, folder, sample_name)
+                    else:
+                        # other result/category have same data format call two different method call for prepare/mapped data
+                        # and other method for download those data as CSV
+                        analysis_data = response_json['analysis']
+                        analysis_data = analysis_data if analysis_data.get("children", False) else []
+                        data = self.prepare_table_data(analysis_data, [])
+                        self.download_data(data, folder, sample_name, result_name)
+        except Exception as e:
+            print(f"Failed to get main data in get_table_data method because: {e}")
 
     def download_data(self, data: list, folder: str, sample_name: str, result_name: str):
         """Modify and save data as csv. all data except bacteria type are saved in this method
@@ -125,35 +128,42 @@ class Scraper:
         """
         print(f"saving data of {folder}/{sample_name}/{result_name} -> {len(data)}")
         all_data = [['name', 'tax_id', 'relative_abundance', 'abundance_score', 'total_matches', 'unique_matches',
-                     'unique_matches_frequency', 'unique_matches_frequency']]
+                     'unique_matches_frequency']]
         if result_name == 'virulence-factors' or result_name == "antibiotic-resistance":
             all_data[0].insert(2, 'class')
             all_data[0][1] = 'accession_id'
 
-        for row in data:
-            if not bool(row):
-                continue
-            relative_abundance = round(row['relative_abundance'] * 100, 2)
-            abundance_score = round(row['abundance_score'] * 100, 2)
-            total_matches = round(row['total_stats']['percent_unique_hits'] * 100, 2)
-            unique_matches = round(row['node_stats']['percent_unique_hits'] * 100, 2)
-            unique_matches_frequency = row['node_stats']['total_hits']
-            name = row['taxonomy']['name'] if row['taxonomy'].get('name', False) else row['title']
-            tax_id = row['taxonomy'].get("tax_id", "")
+        # format data for saving as csv
+        try:
+            for row in data:
+                if not bool(row):
+                    continue
+                relative_abundance = round(row['relative_abundance'] * 100, 2)
+                abundance_score = round(row['abundance_score'] * 100, 2)
+                total_matches = round(row['total_stats']['percent_unique_hits'] * 100, 2)
+                unique_matches = round(row['node_stats']['percent_unique_hits'] * 100, 2)
+                unique_matches_frequency = row['node_stats']['total_hits']
+                name = row['taxonomy']['name'] if row['taxonomy'].get('name', False) else row['title']
+                tax_id = row['taxonomy'].get("tax_id", "")
 
-            row_data = [name, tax_id, relative_abundance, abundance_score, total_matches, unique_matches,
-                        unique_matches_frequency]
-            if result_name == 'virulence-factors' or result_name == "antibiotic-resistance":
-                row_data.insert(2, '-')
-            all_data.append(row_data)
+                row_data = [name, tax_id, relative_abundance, abundance_score, total_matches, unique_matches,
+                            unique_matches_frequency]
+                if result_name == 'virulence-factors' or result_name == "antibiotic-resistance":
+                    row_data.insert(2, '-')
+                all_data.append(row_data)
+        except Exception as e:
+            print(f"Failed to format data for downloading inside download_data, because: {e}")
 
-        directory = f"{folder}/{sample_name}"
-        file_name = f"{result_name}.csv"
-        filepath = os.path.join(directory, file_name)
-        os.makedirs(directory, exist_ok=True)
-        with open(filepath, mode="w", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerows(all_data)
+        try:
+            directory = f"{folder}/{sample_name}"
+            file_name = f"{result_name}.csv"
+            filepath = os.path.join(directory, file_name)
+            os.makedirs(directory, exist_ok=True)
+            with open(filepath, mode="w", newline="") as file:
+                writer = csv.writer(file)
+                writer.writerows(all_data)
+        except Exception as e:
+            print(f"Failed to save data for {filepath} because: {e}")
 
     def prepare_table_data_for_bacteria(self, response, folder, sample_name):
         """This method only prepare and download bacteria and its taxonomy data as csv
@@ -169,49 +179,55 @@ class Scraper:
         # map the value into dictionary from 2D list
         value_mapping = self.map_data(data, columns)
 
-        # iterate over each data and calculate each data by accessing value from dict
-        for _, row in enumerate(rows):
-            for sample in row['metadata']['lineage']:
-                # table_data[sample['rank']] = table_data.get(sample['rank'], []).append()
-                if sample['rank'] == 'no rank':
-                    continue
+        # iterate over each data and calculate each data by accessing value from dict and prepare each taxonomy
+        try:
+            for _, row in enumerate(rows):
+                for sample in row['metadata']['lineage']:
+                    # table_data[sample['rank']] = table_data.get(sample['rank'], []).append()
+                    if sample['rank'] == 'no rank':
+                        continue
 
-                x = table_data.get(sample['rank'], [])
+                    x = table_data.get(sample['rank'], [])
 
-                is_new = True
-                for i, item in enumerate(x):
-                    # if data already exist then add new value to it
-                    if item.get("name") == sample['name']:
-                        item['relative_abundance'] = item.get("relative_abundance", 0) + value_mapping[_][
-                            'relative_abundance']
-                        item['abundance_score'] = item.get("abundance_score", 0) + value_mapping[_]['abundance_score']
-                        item['hit_frequency'] = item.get("hit_frequency", 0) + value_mapping[_]['hit_frequency']
-                        x[i] = item
-                        is_new = False
-                else:
-                    # if data not exist then assign it
-                    if is_new or not x:
-                        item = {
-                            "name": sample['name'], "tax_id": sample['tax_id'],
-                            "relative_abundance": round(value_mapping[_]['relative_abundance']*100, 2),
-                            "abundance_score": round(value_mapping[_]['abundance_score']),
-                            "hit_frequency": value_mapping[_]['hit_frequency']
-                        }
-                        x.append(item)
+                    is_new = True
+                    for i, item in enumerate(x):
+                        # if data already exist then add new value to it
+                        if item.get("name") == sample['name']:
+                            item['relative_abundance'] = item.get("relative_abundance", 0) + value_mapping[_][
+                                'relative_abundance']
+                            item['abundance_score'] = item.get("abundance_score", 0) + value_mapping[_]['abundance_score']
+                            item['hit_frequency'] = item.get("hit_frequency", 0) + value_mapping[_]['hit_frequency']
+                            x[i] = item
+                            is_new = False
+                    else:
+                        # if data not exist then assign it
+                        if is_new or not x:
+                            item = {
+                                "name": sample['name'], "tax_id": sample['tax_id'],
+                                "relative_abundance": round(value_mapping[_]['relative_abundance']*100, 2),
+                                "abundance_score": round(value_mapping[_]['abundance_score']),
+                                "hit_frequency": value_mapping[_]['hit_frequency']
+                            }
+                            x.append(item)
 
-                table_data[sample['rank']] = x
+                    table_data[sample['rank']] = x
+        except Exception as e:
+            print(f"Failed to prepare data for bacteria because {e}")
 
         # save the final Data
         for key in table_data:
-            print(f"Saving data in {folder}/{sample_name}/bacteria/{key}.csv")
-            directory = f"{folder}/{sample_name}/bacteria/"
-            file_name = f"{key}.csv"
-            filepath = os.path.join(directory, file_name)
-            os.makedirs(directory, exist_ok=True)
-            with open(filepath, mode='w', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=table_data[key][0].keys())
-                writer.writeheader()
-                writer.writerows(table_data[key])
+            try:
+                print(f"Saving data in {folder}/{sample_name}/bacteria/{key}.csv")
+                directory = f"{folder}/{sample_name}/bacteria/"
+                file_name = f"{key}.csv"
+                filepath = os.path.join(directory, file_name)
+                os.makedirs(directory, exist_ok=True)
+                with open(filepath, mode='w', newline='') as file:
+                    writer = csv.DictWriter(file, fieldnames=table_data[key][0].keys())
+                    writer.writeheader()
+                    writer.writerows(table_data[key])
+            except Exception as e:
+                print(f"Failed to download data as csv for bacteria - {key} because: {e}")
         return table_data
 
     def map_data(self, data, columns) -> list[dict]:
@@ -221,14 +237,17 @@ class Scraper:
         :return: list of column value(dict)
         """
         value_mapping = []
-        for d in data:
-            if len(value_mapping) > d[0]:
-                x = value_mapping[d[0]]
-                x[columns[d[1]]['id']] = d[2]
-                value_mapping[d[0]] = x
-            else:
-                x = {columns[d[1]]['id']: d[2]}
-                value_mapping.append(x)
+        try:
+            for d in data:
+                if len(value_mapping) > d[0]:
+                    x = value_mapping[d[0]]
+                    x[columns[d[1]]['id']] = d[2]
+                    value_mapping[d[0]] = x
+                else:
+                    x = {columns[d[1]]['id']: d[2]}
+                    value_mapping.append(x)
+        except Exception as e:
+            print(f"Failed to map data in map_data method, because - {e}")
         return value_mapping
 
     def prepare_table_data(self, data, result) -> list[dict]:
@@ -249,22 +268,29 @@ class Scraper:
         :param data_id: sample id
         :return: list of result/category id mapped with mapped in name
         """
-
-        # generate analysis token
-        analysis_token_url = f"https://app.cosmosid.com/api/metagenid/v1/files/{data_id}/runs"
-        response = requests.get(analysis_token_url, headers=self.headers)
-        if response.status_code == 200:
-            response_json = response.json()
-            analysis_token = response_json['runs'][0]['id']
+        analysis_token = None
+        try:
+            # generate analysis token
+            analysis_token_url = f"https://app.cosmosid.com/api/metagenid/v1/files/{data_id}/runs"
+            response = requests.get(analysis_token_url, headers=self.headers)
+            if response.status_code == 200:
+                response_json = response.json()
+                analysis_token = response_json['runs'][0]['id']
+        except Exception as e:
+            print(f"Failed to generate analysis id because: {e}")
 
         # with this token generate analysis id and id only mapped with name
         results_ids = []
-        results_id_url = f"https://app.cosmosid.com/api/metagenid/v1/runs/{analysis_token}/analysis"
-        response = requests.get(results_id_url, headers=self.headers)
-        if response.status_code == 200:
-            response_json = response.json()
-            for data in response_json['analysis']:
-                results_ids.append({"id": data['id'], "name": data['database']['name']})
+        if analysis_token:
+            try:
+                results_id_url = f"https://app.cosmosid.com/api/metagenid/v1/runs/{analysis_token}/analysis"
+                response = requests.get(results_id_url, headers=self.headers)
+                if response.status_code == 200:
+                    response_json = response.json()
+                    for data in response_json['analysis']:
+                        results_ids.append({"id": data['id'], "name": data['database']['name']})
+            except Exception as e:
+                print(f"Failed to generate result id because: {e}")
 
         return results_ids
 
@@ -287,26 +313,33 @@ class Scraper:
             "totp": ""
         })
         token = ""
-        response = requests.post(self.login_url, headers=headers, data=payload)
-        print(f"Get response for token creation with status code {response.status_code}")
-        if response.status_code == 200:
-            json_response = response.json()
-            token = json_response["token"]
+        try:
+            response = requests.post(self.login_url, headers=headers, data=payload)
+            print(f"Get response for token creation with status code {response.status_code}")
+            if response.status_code == 200:
+                json_response = response.json()
+                token = json_response["token"]
 
-        return token
+            return token
+        except Exception as e:
+            print(f"Failed to generate token because: {e}")
+            return ""
 
     def get_folder_data(self) -> list[dict]:
         """Get folder information and mapped it with id and title
         :return mapped folder data
         """
         folder_information = []
-        response = requests.get(self.folder_url, headers=self.headers)
+        try:
+            response = requests.get(self.folder_url, headers=self.headers)
 
-        if response.status_code == 200:
-            print(f"Get response for folder information with status code {response.status_code}")
-            response_data = response.json()
-            for data in response_data:
-                folder_information.append({"id": data["id"], "title": data["title"]})
+            if response.status_code == 200:
+                print(f"Get response for folder information with status code {response.status_code}")
+                response_data = response.json()
+                for data in response_data:
+                    folder_information.append({"id": data["id"], "title": data["title"]})
+        except Exception as e:
+            print(f"Failed to get folder information because: {e}")
         return folder_information
 
     async def get_sample_data(self, session, folder_id: str) -> list:
@@ -336,15 +369,18 @@ class Scraper:
         })
         all_file_id = []
 
-        async with session.post(self.sample_data_url, headers=self.headers, data=payload) as response:
-            if response.status == 200:
-                files = await response.json()
-                for file in files['files']:
-                    all_file_id.append({"uuid": file["file_uuid"], "sample_name": file['sample_name']})
-                return all_file_id
-            else:
-                print(f"Failed to get response for id {folder_id}")
-                return []
-
+        try:
+            async with session.post(self.sample_data_url, headers=self.headers, data=payload) as response:
+                if response.status == 200:
+                    files = await response.json()
+                    for file in files['files']:
+                        all_file_id.append({"uuid": file["file_uuid"], "sample_name": file['sample_name']})
+                    return all_file_id
+                else:
+                    print(f"Failed to get response for id {folder_id}")
+                    return []
+        except Exception as e:
+            print(f"Failed to get sample data for id {folder_id} because: {e}")
+            return []
 
 Scraper()
