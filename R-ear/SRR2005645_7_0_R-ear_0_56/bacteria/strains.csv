@@ -1,8 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Staphylococcus sp. JGI 0001002-I23_u_t,1157683,2.94,8848,2820
-Staphylococcus_u_t,1279,0.04,119,845
-Peptostreptococcus sp. MV1_u_t,1219626,0.23,690,8064
-Corynebacterium sp. KPL1857_u_t,1203564,12.99,39111,408
-Propionibacterium sp. KPL1844_u_t,1203573,4.37,13149,162733
-Propionibacteriaceae_u_t,31957,0.03,89,206
-Dermabacter sp. HFH0086_u_t,1203568,0.1,295,3351

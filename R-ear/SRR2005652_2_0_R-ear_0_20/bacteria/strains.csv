@@ -1,8 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Propionibacterium_u_t,1743,0.05,150,27
-Propionibacterium sp. KPL1844_u_t,1203573,3.52,9791,106893
-Propionibacteriaceae_u_t,31957,0.03,77,183
-Corynebacterium sp. KPL1856_u_t,1203563,5.76,16029,64
-Streptococcus_u_t,1301,0.07,189,9
-Caulobacter sp. JGI 0001013-D04_u_t,1157680,0.09,252,4185
-Neisseriaceae_u_t,481,0.03,87,14
