@@ -1,10 +1,6 @@
-import csv
-import json
-import asyncio
-import os
+import json, asyncio, requests, aiohttp
 
-import requests
-import aiohttp
+from db import Database
 
 
 class Scraper:
@@ -12,6 +8,7 @@ class Scraper:
     folder_url = "https://app.cosmosid.com/api/metagenid/v3/users/60ea9ada-383f-4f6a-a4ae-8e8269df6c23/structure?limit=-1"
     sample_data_url = "https://app.cosmosid.com/api/search/v1/search"
     file_location = "credentials.json"
+    db = Database()
     headers = {
         'accept': 'application/json, text/plain, */*',
         'content-type': 'application/json',
@@ -125,7 +122,7 @@ class Scraper:
         """
         print(f"saving data of {folder}/{sample_name}/{result_name} -> {len(data)}")
         all_data = [['name', 'tax_id', 'relative_abundance', 'abundance_score', 'total_matches', 'unique_matches',
-                     'unique_matches_frequency', 'unique_matches_frequency']]
+                     'unique_matches_frequency']]
         if result_name == 'virulence-factors' or result_name == "antibiotic-resistance":
             all_data[0].insert(2, 'class')
             all_data[0][1] = 'accession_id'
@@ -147,13 +144,7 @@ class Scraper:
                 row_data.insert(2, '-')
             all_data.append(row_data)
 
-        directory = f"{folder}/{sample_name}"
-        file_name = f"{result_name}.csv"
-        filepath = os.path.join(directory, file_name)
-        os.makedirs(directory, exist_ok=True)
-        with open(filepath, mode="w", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerows(all_data)
+        self.db.save_result_data(all_data, folder, sample_name, result_name)
 
     def prepare_table_data_for_bacteria(self, response, folder, sample_name):
         """This method only prepare and download bacteria and its taxonomy data as csv
@@ -203,15 +194,7 @@ class Scraper:
 
         # save the final Data
         for key in table_data:
-            print(f"Saving data in {folder}/{sample_name}/bacteria/{key}.csv")
-            directory = f"{folder}/{sample_name}/bacteria/"
-            file_name = f"{key}.csv"
-            filepath = os.path.join(directory, file_name)
-            os.makedirs(directory, exist_ok=True)
-            with open(filepath, mode='w', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=table_data[key][0].keys())
-                writer.writeheader()
-                writer.writerows(table_data[key])
+            self.db.save_taxonomy_data(table_data[key], folder, sample_name, key)
         return table_data
 
     def map_data(self, data, columns) -> list[dict]:
