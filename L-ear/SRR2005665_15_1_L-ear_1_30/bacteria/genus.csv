@@ -1,9 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Staphylococcus,1279,69.97503999999999,21794.279999999995,13013
-Aerococcus,1375,0.74,186,1891
-Corynebacterium,1716,1.6660899999999998,822.15,4183
-Propionibacteriaceae_u_g,31957,0.42,106,215
-Micrococcus,1269,7.72,1949,1546
-Acinetobacter,469,0.65,164,8
-Pseudomonas,286,0.57,145,2749
-Aeromonas,642,0.32,82,16

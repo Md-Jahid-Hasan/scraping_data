@@ -1,6 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Tetracycline tet 2374 Branch,,-,12.48,358953.0,47.83,47.83,11
-Trimethoprim dfrC,,-,46.12,1326642.0,100.0,100.0,1546
-Quinolone norA,,-,16.03,461219.0,44.16,44.16,2470
-Repressor-of-MepA mepR,,-,14.42,414764.0,66.98,66.98,257
-MDR-Efflux-pump sav1866,,-,10.96,315262.0,41.96,41.96,755
