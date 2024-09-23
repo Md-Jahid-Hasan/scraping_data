@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcaceae,90964,69.97503999999999,21794.279999999995,13013
+Aerococcaceae,186827,0.74,186,1891
+Corynebacteriaceae,1653,1.6660899999999998,822.15,4183
+Propionibacteriaceae,31957,0.42,106,215
+Micrococcaceae,1268,7.72,1949,1546
+Moraxellaceae,468,0.65,164,8
+Pseudomonadaceae,135621,0.57,145,2749
+Aeromonadaceae,84642,0.32,82,16

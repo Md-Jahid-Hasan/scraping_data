@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Propionibacteriaceae_u_t,31957,70.07,1236025,2324
+Staphylococcus sp. TE8_u_t,1472720,0.02,423,1131
+Staphylococcus_u_t,1279,0.01,126,95
+Acinetobacter_u_t,469,0.01,124,88
+Caulobacter sp. JGI 0001013-D04_u_t,1157680,0.01,175,3076

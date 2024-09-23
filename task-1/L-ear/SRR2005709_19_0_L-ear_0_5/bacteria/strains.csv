@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. TE8_u_t,1472720,0.02,199,697
+Staphylococcus_u_t,1279,0.03,257,78
+Anaerococcus_u_t,165779,0.01,97,41
+Veillonella_u_t,29465,0.01,111,10
+Propionibacterium sp. 5_U_42AFAA_u_t,450748,1.07,9353,151
+Propionibacterium_u_t,1743,0.33,2878,928
+Propionibacteriaceae_u_t,31957,0.47,4128,337
+Neisseriaceae_u_t,481,0.01,77,14
+Neisseria_u_t,482,0.01,83,39

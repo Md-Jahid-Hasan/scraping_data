@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Balansia obtecta B249,1405085,63.27,127896.0,2.34,2.36,72277
+Aspergillus,5052,0.3,617.0,0.15,0.15,28
+Malassezia sympodialis ATCC 42132,1230383,1.07,2167.0,0.32,0.32,567
+Malassezia restricta CBS 7877,425264,18.52,37448.0,3.91,3.88,7157
+Malassezia globosa CBS 7966,425265,16.83,34021.0,3.6,3.59,6572

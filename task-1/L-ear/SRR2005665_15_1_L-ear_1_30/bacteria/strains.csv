@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus_u_t,1279,0.71,179,407
+Propionibacteriaceae_u_t,31957,0.42,106,215
+Acinetobacter_u_t,469,0.65,164,8
+Pseudomonas sp. 1-7_u_t,633150,0.57,145,2749
+Aeromonas_u_t,642,0.32,82,16

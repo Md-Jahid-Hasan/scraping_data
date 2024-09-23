@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus,1279,28.347320000000003,18192.98,35514
+Bacillus,1386,0.39,81,13
+Corynebacterium,1716,3.5941699999999996,1639.23,13957
+Actinomyces,1654,2.48,510,9428
+Propionibacteriaceae_u_g,31957,0.69,142,6

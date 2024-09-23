@@ -1,0 +1,12 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,22.78,1365741.0,80.19,69.35,1600
+Staphylococcus aureus GENE qacC,,-,4.21,252338.0,54.79,54.79,80
+Staphylococcus aureus GI 33390920,,-,3.83,229668.0,43.95,43.95,117
+Staphylococcus lentus GENE pre,,-,16.11,965958.0,88.03,88.03,1777
+Staphylococcus lentus GENE tetK,,-,14.27,856021.0,85.71,85.71,1825
+Staphylococcus lentus GENE repC,,-,13.83,829492.0,92.81,92.81,1138
+Staphylococcus lentus GI 60416745,,-,7.11,426233.0,100.0,100.0,36
+Staphylococcus lentus GENE repL,,-,6.54,391885.0,64.81,64.81,239
+Staphylococcus epidermidis GeneID SEA1545,,-,5.04,302497.0,59.01,59.01,134
+Enterococcus hirae GENE ermB,,-,3.01,180489.0,100.0,100.0,6
+Bacteroides vulgatus GI 33413459,,-,3.27,196192.0,48.42,48.42,46

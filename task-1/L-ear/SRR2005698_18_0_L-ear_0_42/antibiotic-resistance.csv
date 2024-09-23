@@ -1,0 +1,13 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tetM,,-,1.21,3669450.0,41.83,41.68,50573
+MDR-Efflux-pump qacA,,-,0.7,2124149.0,98.04,86.99,1580
+Plasmid-or-transposon-encoded-chloramphenicol-exporter cmx,,-,0.13,402046.0,61.46,100.0,8
+Beta-lactam cfxA 2367 Branch,,-,0.11,323036.0,45.59,100.0,30
+Tetracycline tetK,,-,93.5,283346963.0,98.63,98.63,919254
+Trimethoprim dfrC,,-,2.9,8792213.0,100.0,100.0,12348
+Macrolide msrA,,-,0.47,1416945.0,59.2,59.2,8202
+Macrolide mphC,,-,0.26,798948.0,44.0,44.0,3737
+Macrolide ermX,,-,0.16,494696.0,50.8,50.8,1062
+Macrolide ermC,,-,0.13,392344.0,41.63,44.85,1271
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,0.36,1085867.0,55.54,55.54,1897
+Beta-lactam-resistance blaTEM 70,,-,0.06,192209.0,73.33,55.56,5

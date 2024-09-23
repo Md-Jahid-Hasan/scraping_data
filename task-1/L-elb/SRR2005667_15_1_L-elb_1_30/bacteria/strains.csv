@@ -1,0 +1,19 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Acinetobacter sp. CIP 101966_u_t,1144662,6.29,3973,3277
+Acinetobacter calcoaceticus/baumannii complex_u_t,909768,0.82,520,20
+Acinetobacter_u_t,469,0.47,295,84
+Pseudomonas sp. 1-7_u_t,633150,15.4,9722,298632
+Aeromonas sp. HZM_u_t,1454008,1.2,759,434
+Klebsiella_u_t,570,0.16,101,341
+Shewanella_u_t,22,0.14,86,919
+Halomonas_u_t,2745,0.15,94,16
+Neisseria_u_t,482,0.13,80,32
+Brevundimonas_u_t,41275,0.14,88,26
+Streptococcus_u_t,1301,0.34,213,31
+Staphylococcus sp. AL1_u_t,861530,0.69,435,584
+Staphylococcus_u_t,1279,2.07,1308,84
+Exiguobacterium_u_t,33986,0.13,82,931
+Anaerococcus_u_t,165779,0.14,92,40
+Peptoniphilus_u_t,162289,0.13,84,178
+Veillonella_u_t,29465,0.21,133,126
+Propionibacteriaceae_u_t,31957,0.48,302,52

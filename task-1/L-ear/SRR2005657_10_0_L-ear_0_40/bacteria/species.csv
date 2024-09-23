@@ -1,0 +1,68 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,92.25,861992,116
+Staphylococcus sp. MDS7B,1209359,0.52,4882,6209
+Staphylococcus capitis,29388,0.14,1317,1549
+Staphylococcus warneri,1292,0.09,849,443
+Staphylococcus pasteuri,45972,0.07,672,7983
+Staphylococcus haemolyticus,1283,0.16,1493,8880
+Staphylococcus cohnii,29382,0.07,616,1023
+Staphylococcus xylosus,1288,0.01,80,679
+Staphylococcus_u_s,1279,0.02,214,3434
+Staphylococcus lugdunensis,28035,0.01,80,14
+Staphylococcus aureus,1280,0.3,2812,23
+Staphylococcus hominis,1290,0.08,731,120
+Bacillus thermoamylovorans,35841,0.02,156,317
+Paenibacillus sophorae,1333845,0.18,1641,27053
+Gemella haemolysans,1379,0.03,267,3812
+Listeria monocytogenes,1639,0.01,91,302
+Lactobacillus acidophilus,1579,0.23,2184,39
+Aerococcus viridans,1377,0.07,648,6978
+Aerococcus urinaeequi,51665,0.02,201,1687
+Granulicatella_u_s,117563,0.02,180,24
+Streptococcus thermophilus,1308,0.03,273,92
+Streptococcus_u_s,1301,0.03,267,1297
+Streptococcus australis,113107,0.01,78,1311
+Streptococcus mitis,28037,0.03,256,2377
+Streptococcus sp. M334,563038,0.01,136,1283
+Streptococcus pseudopneumoniae,257758,0.01,106,9
+Cutibacterium acnes,1747,1.48,13819,148
+[Propionibacterium] namnetense,1574624,0.08,732,17492
+Cutibacterium granulosum,33011,0.02,227,1645
+Propionibacterium sp. KPL1844,1203573,0.04,381,3590
+Kocuria palustris,71999,0.77,7161,57361
+Kocuria rhizophila,72000,0.03,239,2689
+Rothia mucilaginosa,43675,0.07,656,7744
+Rothia dentocariosa,2047,0.01,111,1757
+Rothia aeria,172042,0.01,88,532
+Micrococcus luteus,1270,0.95,8872,14224
+Microbacterium sp. KROCY2,1305732,0.69,6444,28302
+Dermacoccus_u_s,57495,0.01,117,1958
+Corynebacterium jeikeium,38289,0.01,83,31
+Corynebacterium matruchotii,43768,0.01,76,1093
+Corynebacterium tuberculostearicum,38304,0.06,524,2660
+Corynebacterium pseudogenitalium,38303,0.05,500,2903
+Corynebacterium durum,61592,0.03,276,8548
+Corynebacterium ihumii,1232427,0.02,192,5101
+Corynebacterium lipophiloflavum,161889,0.01,99,2996
+Actinomyces massiliensis,461393,0.03,271,4226
+Acinetobacter_u_s,469,0.09,817,893
+Acinetobacter idrijaensis,1507807,0.06,583,707
+Acinetobacter lwoffii,28090,0.11,1062,1150
+Acinetobacter sp. CIP 101966,1144662,0.1,966,731
+Acinetobacter johnsonii,40214,0.07,620,2717
+Acinetobacter junii,40215,0.01,102,388
+Acinetobacter ursingii,108980,0.01,75,43
+Pseudomonas putida,303,0.06,514,163
+Haemophilus parahaemolyticus,735,0.03,271,2760
+Haemophilus parainfluenzae,729,0.01,145,327
+Enhydrobacter aerosaccus,225324,0.31,2855,39058
+Brevundimonas diminuta,293,0.02,162,3798
+Paracoccus sanguinis,1545044,0.01,78,381
+Paracoccus yeei,147645,0.04,362,10498
+Methylobacterium_u_s,407,0.01,117,39
+Rhizobiales_u_s,356,0.01,112,1250
+Lautropia mirabilis,47671,0.03,327,9415
+Neisseria_u_s,482,0.02,222,175
+Neisseria flavescens,484,0.02,150,180
+Neisseriaceae_u_s,481,0.01,123,22
+Hymenobacter_u_s,89966,0.11,1062,26

@@ -1,0 +1,20 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Propionibacterium sp. 5_U_42AFAA_u_t,450748,39.57,751702,81969
+Propionibacterium_u_t,1743,0.11,2031,1199
+Acidipropionibacterium_u_t,1912215,0.01,140,1147
+Propionimicrobium_u_t,203133,0.01,139,1214
+Corynebacterium sp. KPL1856_u_t,1203563,0.49,9379,21
+Dietzia_u_t,37914,0.01,92,24
+Dermabacter sp. HFH0086_u_t,1203568,0.01,237,2866
+Mobiluncus_u_t,2050,0.01,107,16
+Staphylococcus sp. JGI 0001002-I23_u_t,1157683,1.16,22046,3384
+Staphylococcus_u_t,1279,0.01,267,2414
+Streptococcus sp. HSISS3_u_t,1316412,0.03,477,678
+Streptococcus_u_t,1301,0.01,164,471
+Lactobacillus_u_t,1578,0.01,110,10
+Aerococcus_u_t,1375,0.0,77,121
+Peptoniphilus_u_t,162289,0.01,180,88
+Tissierellia bacterium S5-A11_u_t,1230730,0.04,783,6073
+Christensenella_u_t,990721,0.01,89,287
+Veillonella_u_t,29465,0.0,77,11
+Porphyromonas_u_t,836,0.02,409,23

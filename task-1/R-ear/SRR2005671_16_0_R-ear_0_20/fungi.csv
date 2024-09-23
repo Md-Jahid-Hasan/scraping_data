@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Balansia obtecta B249,1405085,55.82,476472.0,4.25,4.35,262712
+Debaryomyces hansenii CBS767,284592,0.12,1042.0,0.18,0.18,248
+Malassezia restricta CBS 7877,425264,34.34,293149.0,25.87,25.85,43522
+Malassezia globosa CBS 7966,425265,9.72,82944.0,8.39,8.38,12858

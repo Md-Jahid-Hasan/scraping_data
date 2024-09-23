@@ -1,0 +1,68 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Acinetobacter idrijaensis,1507807,4.09,2583,3612
+Acinetobacter lwoffii,28090,6.54,4125,3856
+Acinetobacter schindleri,108981,1.66,1048,2868
+Acinetobacter sp. CIP 101966,1144662,6.29,3973,3277
+Acinetobacter towneri,202956,2.2,1389,59
+Acinetobacter baumannii,470,0.18,112,1480
+Acinetobacter pittii,48296,0.39,244,112
+Acinetobacter johnsonii,40214,2.83,1785,6610
+Acinetobacter haemolyticus,29430,0.13,82,41
+Acinetobacter_u_s,469,0.47,295,84
+Acinetobacter junii,40215,0.4,251,125
+Acinetobacter ursingii,108980,0.13,83,25
+Pseudomonas sp. 1-7,633150,15.4,9722,298632
+Pseudomonas alcaliphila,101564,3.61,2278,18640
+Pseudomonas aeruginosa,287,2.83,1785,525
+Pseudomonas mendocina,300,3.29,2075,11133
+Pseudomonas bauzanensis,653930,0.13,83,3291
+Pseudomonas stutzeri,316,0.21,133,59
+Aeromonas caviae,648,1.21,762,1145
+Aeromonas sp. HZM,1454008,1.2,759,434
+Leclercia adecarboxylata,83655,0.15,97,2437
+Klebsiella_u_s,570,0.16,101,341
+Shewanella_u_s,22,0.14,86,919
+Halomonas_u_s,2745,0.15,94,16
+Comamonas aquatica,225991,0.28,177,1936
+Neisseria_u_s,482,0.13,80,32
+Brevundimonas_u_s,41275,0.14,88,26
+Aerococcus viridans,1377,12.89,8136,109415
+Aerococcus urinaeequi,51665,1.21,765,7717
+Enterococcus faecium,1352,0.6,380,31
+Streptococcus salivarius,1304,0.21,133,463
+Streptococcus_u_s,1301,0.34,213,31
+Staphylococcus capitis,29388,1.68,1063,283
+Staphylococcus equorum,246432,0.96,608,1969
+Staphylococcus sp. AL1,861530,0.69,435,584
+Staphylococcus cohnii,29382,0.25,155,287
+Staphylococcus haemolyticus,1283,0.68,426,325
+Staphylococcus_u_s,1279,2.07,1308,84
+Staphylococcus xylosus,1288,0.23,148,850
+Staphylococcus lentus,42858,0.28,175,3274
+Staphylococcus massiliensis,555791,0.14,87,36
+Staphylococcus lugdunensis,28035,0.18,113,788
+Staphylococcus pettenkoferi,170573,0.16,102,2329
+Staphylococcus aureus,1280,0.25,156,70
+Jeotgalicoccus psychrophilus,157228,1.35,853,14430
+Jeotgalicoccus marinus,516700,0.46,294,4966
+Exiguobacterium_u_s,33986,0.13,82,931
+Finegoldia magna,1260,0.15,96,890
+Anaerococcus prevotii,33034,0.22,142,21
+Anaerococcus_u_s,165779,0.14,92,40
+Peptoniphilus_u_s,162289,0.13,84,178
+Peptoniphilus harei,54005,0.12,77,827
+Clostridium perfringens,1502,0.14,90,317
+Veillonella_u_s,29465,0.21,133,126
+Rothia mucilaginosa,43675,0.39,247,994
+Kocuria rhizophila,72000,0.18,114,1095
+Micrococcus luteus,1270,10.82,6829,8341
+Brevibacterium ravenspurgense,479117,0.17,105,2530
+Corynebacterium jeikeium,38289,0.32,201,55
+Corynebacterium variabile,1727,0.14,85,2017
+Corynebacterium pseudogenitalium,38303,2.63,1659,11813
+Corynebacterium tuberculostearicum,38304,2.55,1609,9649
+Corynebacterium massiliense,441501,0.5,318,6375
+Corynebacterium pyruviciproducens,598660,0.2,126,2896
+Propionibacteriaceae_u_s,31957,0.48,302,52
+Actinomyces neuii,33007,0.2,124,2563
+Empedobacter falsenii,343874,0.4,251,4909

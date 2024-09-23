@@ -1,0 +1,8 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus aureus,1280,58.9,1479,20
+Staphylococcus_u_s,1279,8.9,223,28
+Staphylococcus capitis,29388,3.13,79,35
+Micrococcus luteus,1270,8.07,203,91
+Kocuria rhizophila,72000,9.79,246,2506
+Kocuria_u_s,57493,5.4,136,31
+Propionibacteriaceae_u_s,31957,5.81,146,10

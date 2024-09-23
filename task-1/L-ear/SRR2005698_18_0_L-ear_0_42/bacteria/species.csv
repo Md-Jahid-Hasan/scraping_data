@@ -1,0 +1,119 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Cutibacterium acnes,1747,34.84,362158,8831
+[Propionibacterium] namnetense,1574624,0.02,187,5665
+Cutibacterium granulosum,33011,4.31,44775,358920
+Cutibacterium avidum,33010,0.62,6444,6143
+Propionibacterium sp. 5_U_42AFAA,450748,34.73,361005,41339
+Propionibacterium_u_s,1743,0.1,1084,1401
+Acidipropionibacterium acidipropionici,1748,0.01,97,2990
+Acidipropionibacterium_u_s,1912215,0.01,81,600
+Propionimicrobium sp. BV2F7,1111131,0.11,1194,2927
+Propionimicrobium lymphophilum,33012,0.07,714,2482
+Micrococcus luteus,1270,1.42,14737,120952
+Nesterenkonia massiliensis,1232429,0.25,2566,56446
+Kocuria palustris,71999,0.05,510,20091
+Kocuria_u_s,57493,0.02,210,2725
+Pseudoglutamicibacter albus,98671,0.09,967,19628
+Rothia dentocariosa,2047,0.01,105,821
+Microbacterium sp. KROCY2,1305732,0.03,269,1139
+Brevibacterium ravenspurgense,479117,0.04,417,9289
+Brevibacterium casei,33889,0.01,132,3077
+Dermabacter_u_s,36739,0.01,145,1130
+Brachybacterium paraconglomeratum,173362,0.02,209,4186
+Brachybacterium muris,219301,0.01,99,2318
+Corynebacterium accolens,38284,0.43,4452,8013
+Corynebacterium jeikeium,38289,0.06,670,7311
+Corynebacterium urealyticum,43771,0.02,177,1328
+Corynebacterium sp. KPL1824,1203561,0.48,5020,6196
+Corynebacterium tuscaniense,302449,0.2,2119,44037
+Corynebacterium pseudogenitalium,38303,0.15,1615,10832
+Corynebacterium tuberculostearicum,38304,0.15,1595,9064
+Corynebacterium aurimucosum,169292,0.05,563,13312
+Corynebacterium massiliense,441501,0.04,441,8748
+Corynebacterium kroppenstedtii,161879,0.04,406,8940
+Corynebacterium imitans,156978,0.03,274,6297
+Corynebacterium minutissimum,38301,0.02,175,3795
+Corynebacterium singulare,161899,0.01,78,2647
+Corynebacterium freneyi,134034,0.01,77,1816
+Dietzia_u_s,37914,0.01,87,17
+Actinomyces sp. S4-C9,1219581,0.07,714,11310
+Actinomyces europaeus,66228,0.03,302,4553
+Actinomyces viscosus,1656,0.03,261,2413
+Actinomyces turicensis,131111,0.02,195,4222
+Varibaculum cambriense,184870,0.03,256,3822
+Mobiluncus curtisii,2051,0.01,87,60
+Actinotignum schaalii,59505,0.01,133,2513
+Actinotignum urinale,190146,0.01,139,3013
+Gardnerella vaginalis,2702,0.04,430,194
+Scardovia wiggsiae,230143,0.02,197,2821
+Pseudonocardia sp. P2,882856,0.01,100,5047
+Coriobacteriaceae bacterium BV3Ac1,1111135,0.01,146,2431
+Staphylococcus epidermidis,1282,11.06,114939,7552
+Staphylococcus sp. JGI 0001002-I23,1157683,0.62,6464,2356
+Staphylococcus capitis,29388,0.38,3936,17368
+Staphylococcus haemolyticus,1283,0.04,454,2186
+Staphylococcus warneri,1292,0.01,108,559
+Staphylococcus xylosus,1288,0.01,86,568
+Staphylococcus lugdunensis,28035,0.01,79,531
+Staphylococcus pettenkoferi,170573,0.01,94,2274
+Staphylococcus aureus,1280,1.3,13480,10104
+Staphylococcus hominis,1290,0.06,569,103
+Facklamia hominis,178214,0.11,1120,5290
+Facklamia ignava,137730,0.07,725,9504
+Aerococcus viridans,1377,0.01,132,167
+Aerococcus urinae,1376,0.01,143,2285
+Lactobacillus gasseri,1596,0.04,437,415
+Lactobacillus crispatus,47770,0.04,451,33
+Lactobacillus delbrueckii,1584,0.01,119,390
+Lactobacillus_u_s,1578,0.03,278,1022
+Lactobacillus reuteri,1598,0.01,97,48
+Enterococcus faecalis,1351,0.01,147,15
+Streptococcus mutans,1309,0.11,1115,62
+Streptococcus agalactiae,1311,0.03,279,162
+Streptococcus sp. HSISS3,1316412,0.03,301,450
+Streptococcus_u_s,1301,0.02,179,34
+Peptoniphilus grossensis,1465756,0.04,409,8039
+Peptoniphilus lacrimalis,33031,0.01,135,1172
+Peptoniphilus sp. BV3AC2,1111133,0.01,96,2002
+Peptoniphilus duerdenii,507750,0.01,86,1786
+Peptoniphilus rhinitidis,1175452,3.38,35148,700038
+Peptoniphilus harei,54005,0.15,1596,15462
+Peptoniphilus obesi,1472765,0.01,89,2260
+Anaerococcus prevotii,33034,0.03,274,3822
+Anaerococcus hydrogenalis,33029,0.01,99,1401
+Anaerococcus senegalensis,1288120,0.01,88,1780
+Anaerococcus obesiensis,1287640,0.02,182,4054
+Anaerococcus lactolyticus,33032,0.01,138,1474
+Anaerococcus provencensis,938293,0.61,6396,129834
+Anaerococcus vaginalis,33037,0.02,211,2577
+Anaerococcus pacaensis,1465826,0.02,165,101
+Finegoldia magna,1260,0.24,2542,29040
+Helcococcus_u_s,31983,0.04,400,30
+Tissierellia bacterium S5-A11,1230730,0.22,2309,21222
+Kallipyga massiliensis,1472764,0.02,178,2151
+Dialister micraerophilus,309120,0.02,177,1513
+Negativicoccus succinicivorans,620903,0.42,4334,31373
+Clostridioides difficile,1496,0.21,2173,5231
+Fenollaria massiliensis,938288,0.02,222,3083
+Christensenella_u_s,990721,0.01,126,404
+Campylobacter ureolyticus,827,0.22,2277,15739
+Acinetobacter_u_s,469,0.17,1754,1448
+Acinetobacter haemolyticus,29430,0.21,2196,2897
+Pseudomonas stutzeri,316,0.02,162,3839
+Pseudomonas aeruginosa,287,0.01,98,254
+Proteus mirabilis,584,0.01,112,120
+Klebsiella_u_s,570,0.01,88,276
+Ochrobactrum rhizosphaerae,571254,0.08,873,19822
+Ochrobactrum_u_s,528,0.01,93,26
+Haematobacter massiliensis,195105,0.04,401,8861
+Paracoccus sanguinis,1545044,0.01,76,242
+Jonquetella anthropi,428712,0.27,2781,673
+Jonquetella sp. BV3C21,1111126,0.26,2674,657
+Porphyromonas_u_s,836,0.04,447,13
+Porphyromonas asaccharolytica,28123,0.01,96,800
+Porphyromonas bennonis,501496,0.05,489,7539
+Prevotella sp. BV3P1,1111130,0.03,315,420
+Prevotella buccalis,28127,0.12,1250,19252
+Prevotella timonensis,386414,0.05,549,5467
+Prevotella disiens,28130,0.04,471,1459
+Empedobacter_u_s,59734,0.01,91,71

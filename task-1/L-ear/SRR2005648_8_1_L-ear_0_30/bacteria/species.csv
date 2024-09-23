@@ -1,0 +1,11 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus aureus,1280,38.3,7048,4732
+Staphylococcus epidermidis,1282,1.38,254,87
+Staphylococcus_u_s,1279,2.27,418,31
+Staphylococcus capitis,29388,1.5,276,52
+Staphylococcus caprae,29380,2.23,410,7216
+Staphylococcus warneri,1292,0.49,91,16
+Corynebacterium pseudogenitalium,38303,24.3,4471,39441
+Corynebacterium tuberculostearicum,38304,23.72,4366,32771
+Corynebacterium sp. KPL1856,1203563,5.07,933,11
+Corynebacterium striatum,43770,0.75,137,3590

@@ -1,0 +1,14 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Propionibacterium phage P105,1229788,22.95,142293.0,18.47,12.96,842
+Propionibacterium phage PHL111M01,1235653,7.31,45359.0,11.27,2.79,209
+Propionibacterium phage PHL060L00,1235647,6.14,38086.0,5.29,2.02,147
+Propionibacterium phage PAD20,504501,3.93,24361.0,3.95,2.29,119
+Propionibacterium phage ATCC29399B_C,1229794,2.35,14578.0,2.79,1.61,29
+Pa6virus,1982251,1.65,10265.0,3.43,3.43,6
+Propionibacterium phage PHL113M01,1235655,17.01,105502.0,12.85,6.4,471
+Propionibacterium phage P1.1,1229792,4.93,30547.0,4.56,1.55,111
+Siphoviridae,10699,1.79,11111.0,2.27,2.27,17
+Phietavirus,1623298,2.59,16049.0,2.43,1.42,53
+Staphylococcus phage StB20,1147043,4.61,28558.0,3.85,3.69,1013
+Human immunodeficiency virus 1,11676,20.32,125999.0,7.6,7.6,1203
+Equine infectious anemia virus,11665,4.42,27423.0,1.88,1.88,713

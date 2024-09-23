@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Malassezia sympodialis ATCC 42132,1230383,0.49,5629.0,0.69,0.69,1540
+Malassezia globosa CBS 7966,425265,95.06,1082653.0,64.0,64.0,260026
+Malassezia restricta CBS 7877,425264,2.66,30278.0,3.01,2.98,7052
+Balansia obtecta B249,1405085,1.79,20366.0,1.77,1.79,6833
