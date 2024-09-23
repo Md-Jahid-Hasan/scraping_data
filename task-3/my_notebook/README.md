@@ -1,4 +1,4 @@
-# A simple backend server 
+# A simple backend server named my_notebook
 
 ## For run this project follow bellow command
 
