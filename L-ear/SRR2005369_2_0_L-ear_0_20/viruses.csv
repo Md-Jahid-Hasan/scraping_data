@@ -1,7 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Staphylococcus phage CNPH82,398839,15.77,129444.0,10.6,12.12,4769
-Staphylococcus phage Ipla7,1197953,15.32,125739.0,10.96,11.77,3857
-Staphylococcus phage Ipla5,1197952,17.5,143699.0,12.12,12.06,4708
-Staphylococcus phage PH15,399185,7.48,61391.0,7.45,3.77,1105
-Staphylococcus phage StB20,1147043,42.31,347374.0,24.98,23.71,18115
-Propionibacterium phage P100D,1229789,1.62,13335.0,2.6,1.33,57

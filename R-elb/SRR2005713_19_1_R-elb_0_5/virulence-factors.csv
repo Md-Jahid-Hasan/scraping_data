@@ -1,5 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Streptococcus pyogenes GENE msrD,,-,28.87,541733.0,57.61,57.61,1064
-Streptococcus pyogenes GI 52345271,,-,24.24,454772.0,68.97,68.97,275
-Staphylococcus aureus GI 1527 Branch,,-,32.0,600290.0,67.89,67.89,112
-Enterococcus faecium GI 21886746,,-,14.89,279430.0,71.43,71.43,40

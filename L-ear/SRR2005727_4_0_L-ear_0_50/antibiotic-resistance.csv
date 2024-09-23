@@ -1,9 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-MDR-Efflux-pump qacA,,-,3.5,305591.0,62.1,41.46,76
-Aminoglycoside aph3' Ic,,-,4.97,433737.0,61.6,86.76,73
-Aminoglycoside 2024 Branch,,-,5.82,508266.0,75.85,75.85,401
-Phenicol cm 2318 Branch,,-,3.65,318990.0,51.24,51.24,297
-Trimethoprim dfrC,,-,53.68,4687743.0,100.0,100.0,6649
-Macrolide ermX,,-,9.29,810849.0,57.19,57.19,2098
-Aminoglycoside aph6 Id,,-,5.64,492715.0,69.91,69.91,466
-Beta-lactam-resistance bla 1022 1943 4 Branch,,-,13.45,1174722.0,42.96,42.96,2349
