@@ -1,0 +1,7 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+AR 269 551 2523 Branch,,-,2.25,283126.0,47.76,47.76,252
+Trimethoprim dfrC,,-,62.76,7913668.0,100.0,100.0,11156
+Aminoglycoside aadD,,-,17.8,2244763.0,91.26,91.26,4326
+bleomycin resistance protein BRP,,-,8.08,1019238.0,61.09,61.09,1707
+Tetracycline tetK,,-,2.15,270721.0,43.16,43.16,396
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,6.97,878412.0,83.08,83.08,1811

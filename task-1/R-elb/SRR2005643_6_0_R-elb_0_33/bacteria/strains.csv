@@ -1,0 +1,22 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. TE8_u_t,1472720,7.14,12908,42764
+Staphylococcus_u_t,1279,0.1,171,1772
+Bacillus_u_t,1386,0.06,111,12
+Exiguobacterium_u_t,33986,0.23,415,4863
+Lactobacillus_u_t,1578,0.18,325,23
+Granulicatella_u_t,117563,0.06,106,21
+Anaerococcus_u_t,165779,0.06,113,50
+Veillonella_u_t,29465,0.13,240,38
+Clostridiales_u_t,186802,0.04,82,10
+Dermacoccus sp. Ellin185_u_t,188626,0.37,674,8479
+Microbacterium sp. KROCY2_u_t,1305732,0.8,1445,6434
+Dermabacter_u_t,36739,0.06,108,1060
+Propionibacterium_u_t,1743,7.08,12793,28
+Propionibacterium sp. KPL1844_u_t,1203573,0.11,200,1584
+Pseudonocardia sp. P2_u_t,882856,1.76,3191,15399
+Acinetobacter sp. CIP 101966_u_t,1144662,1.26,2278,1406
+Acinetobacter_u_t,469,0.05,96,413
+Psychrobacter_u_t,497,0.06,102,16
+Pseudomonas sp. 1-7_u_t,633150,0.1,176,3776
+Paracoccus sp. PAMC 22219_u_t,1569209,0.13,237,7140
+Herbaspirillum_u_t,963,0.05,98,76

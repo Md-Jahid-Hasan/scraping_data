@@ -1,0 +1,4 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Human papillomavirus type 50,40539,53.59,37334.0,6.23,6.23,291
+Phietavirus,1623298,28.5,19859.0,2.63,2.63,60
+Human immunodeficiency virus 1,11676,17.91,12480.0,2.63,2.63,75

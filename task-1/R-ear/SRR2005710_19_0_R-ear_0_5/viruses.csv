@@ -1,0 +1,12 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus phage Ipla5,1197952,11.13,87653.0,11.81,9.05,1599
+Staphylococcus phage PH15,399185,5.65,44503.0,9.22,4.09,919
+Staphylococcus phage Ipla7,1197953,12.17,95834.0,12.24,11.85,2023
+Staphylococcus phage CNPH82,398839,8.34,65733.0,10.09,6.85,1289
+Staphylococcus phage 80alpha,53369,3.02,23785.0,4.25,4.07,13
+Staphylococcus phage StB12,1147042,0.98,7726.0,1.06,1.05,537
+Staphylococcus phage phiBU01,1519999,0.94,7364.0,1.46,2.17,35
+Staphylococcus phage StB20,1147043,44.43,349952.0,24.96,25.17,19314
+Human polyomavirus 6,746830,5.0,39390.0,6.75,6.75,228
+Human immunodeficiency virus 1,11676,6.93,54577.0,4.35,4.35,550
+Equine infectious anemia virus,11665,1.42,11169.0,1.45,1.45,243

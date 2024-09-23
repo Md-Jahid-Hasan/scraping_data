@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Phietavirus,1623298,28.23,8691.0,1.27,1.27,29
+Staphylococcus phage StB20,1147043,20.61,6343.0,1.1,1.1,245
+Human papillomavirus type 144,1070417,28.34,8724.0,1.93,1.93,73
+Equine infectious anemia virus,11665,22.82,7025.0,1.59,1.59,66

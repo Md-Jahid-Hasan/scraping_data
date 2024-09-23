@@ -1,0 +1,7 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Staphylococcus phage PH15,399185,25.22,90769.0,16.0,8.54,1701
+Staphylococcus phage Ipla5,1197952,15.48,55722.0,14.2,5.28,1259
+Staphylococcus phage Ipla7,1197953,31.3,112658.0,19.21,8.31,1247
+Staphylococcus phage CNPH82,398839,7.49,26947.0,14.0,2.89,483
+Staphylococcus phage StB20,1147043,18.63,67059.0,7.41,7.47,2918
+Human papillomavirus type 112,915427,1.89,6800.0,1.52,1.52,69

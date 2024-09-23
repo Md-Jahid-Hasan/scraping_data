@@ -1,0 +1,56 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Kocuria palustris,71999,1.38,591,2462
+Kocuria rhizophila,72000,0.66,280,2800
+Rothia mucilaginosa,43675,0.54,232,1093
+Rothia dentocariosa,2047,0.26,110,926
+Micrococcus luteus,1270,11.27,4817,5820
+Microbacterium sp. KROCY2,1305732,1.49,637,2959
+Brachybacterium paraconglomeratum,173362,0.36,152,3226
+Cutibacterium acnes,1747,8.64,3691,10
+Propionibacteriaceae_u_s,31957,7.67,3279,311
+Corynebacterium glucuronolyticum,39791,0.39,167,1084
+Corynebacterium urealyticum,43771,0.25,108,1329
+Corynebacterium sp. KPL1856,1203563,8.94,3820,40
+Corynebacterium pseudogenitalium,38303,4.87,2081,16154
+Corynebacterium tuberculostearicum,38304,4.5,1924,10609
+Corynebacterium massiliense,441501,0.83,355,7440
+Corynebacterium ihumii,1232427,0.36,155,3522
+Actinomyces sp. oral taxon 448,712124,0.25,106,2510
+Staphylococcus capitis,29388,6.0,2562,2531
+Staphylococcus sp. TE8,1472720,0.76,326,638
+Staphylococcus epidermidis,1282,2.09,895,93
+Staphylococcus saprophyticus,29385,0.67,287,167
+Staphylococcus haemolyticus,1283,0.48,203,82
+Staphylococcus warneri,1292,0.21,88,360
+Staphylococcus pasteuri,45972,0.23,99,1190
+Staphylococcus massiliensis,555791,0.27,115,1918
+Staphylococcus pettenkoferi,170573,0.67,288,6461
+Staphylococcus aureus,1280,1.01,432,139
+Staphylococcus_u_s,1279,0.39,168,534
+Paenibacillus sophorae,1333845,1.29,549,4988
+Lactobacillus_u_s,1578,0.73,310,13
+Lactobacillus crispatus,47770,0.47,203,236
+Lactobacillus gasseri,1596,0.42,179,533
+Lactobacillus vaginalis,1633,0.21,90,1588
+Lactobacillus oris,1632,0.23,97,622
+Aerococcus_u_s,1375,0.43,182,391
+Streptococcus parasanguinis,1318,0.39,165,6
+Streptococcus_u_s,1301,0.45,192,6
+Finegoldia magna,1260,0.62,264,232
+Veillonella_u_s,29465,0.33,141,20
+Acinetobacter lwoffii,28090,12.04,5145,38748
+Acinetobacter johnsonii,40214,8.63,3686,12436
+Acinetobacter sp. 479375,1310601,0.53,226,426
+Acinetobacter ursingii,108980,0.55,235,508
+Acinetobacter_u_s,469,0.29,125,247
+Pseudomonas putida,303,0.19,79,841
+Serratia liquefaciens,614,0.31,132,3081
+Escherichia coli,562,0.4,170,19
+Aeromonas_u_s,642,0.85,361,24
+Stenotrophomonas maltophilia,40324,0.21,88,99
+Enhydrobacter aerosaccus,225324,3.25,1390,15857
+Paracoccus sphaerophysae,690417,0.62,266,5828
+Paracoccus sanguinis,1545044,0.23,100,198
+Brevundimonas_u_s,41275,0.18,76,35
+Neisseria_u_s,482,0.22,95,70
+Porphyromonas somerae,322095,0.31,133,2794

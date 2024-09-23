@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,18.56,671,193
+Staphylococcus capitis,29388,18.47,668,219
+Staphylococcus_u_s,1279,7.58,274,41
+Staphylococcus haemolyticus,1283,6.15,222,122
+Staphylococcus aureus,1280,19.79,715,69
+Propionibacteriaceae_u_s,31957,19.94,721,39
+Propionibacterium sp. KPL1844,1203573,3.38,122,1106
+Corynebacterium sp. HFH0082,1078764,3.82,138,1590
+Micrococcus luteus,1270,2.32,84,10

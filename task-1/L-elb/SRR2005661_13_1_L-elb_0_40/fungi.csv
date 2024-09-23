@@ -1,0 +1,4 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Malassezia restricta CBS 7877,425264,87.16,10791.0,1.38,1.38,1920
+Malassezia globosa CBS 7966,425265,4.98,617.0,0.12,0.12,161
+Balansia obtecta B249,1405085,7.86,973.0,0.17,0.17,239

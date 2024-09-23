@@ -1,0 +1,27 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,57.15,93914,266
+Staphylococcus sp. MDS7B,1209359,11.21,18428,36540
+Staphylococcus warneri,1292,2.3,3786,43
+Staphylococcus pasteuri,45972,0.24,395,3638
+Staphylococcus capitis,29388,0.05,87,136
+Staphylococcus_u_s,1279,0.15,243,71
+Staphylococcus aureus,1280,23.29,38275,1127
+Staphylococcus hominis,1290,3.26,5360,3074
+Gemella haemolysans,1379,0.12,194,2118
+Streptococcus vestibularis,1343,0.16,268,1050
+Streptococcus parasanguinis,1318,0.08,125,20
+Streptococcus mitis,28037,0.2,336,2103
+Streptococcus oralis,1303,0.11,182,720
+Streptococcus intermedius,1338,0.11,186,342
+Streptococcus sp. DORA_10,1403937,0.05,78,306
+Streptococcus_u_s,1301,0.06,101,74
+Streptococcus mutans,1309,0.05,85,95
+Granulicatella_u_s,117563,0.08,135,19
+Rothia dentocariosa,2047,0.34,553,5962
+Rothia_u_s,32207,0.05,80,226
+Rothia mucilaginosa,43675,0.31,515,5028
+Propionibacteriaceae_u_s,31957,0.12,200,23
+Actinomyces viscosus,1656,0.18,292,2141
+Actinomyces sp. oral taxon 171,706438,0.09,146,1856
+Corynebacterium durum,61592,0.15,239,5651
+Neisseriaceae_u_s,481,0.07,117,20

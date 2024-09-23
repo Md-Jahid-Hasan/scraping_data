@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Cutibacterium,1912216,27.29175,484457.04000000004,70941
+Propionibacteriaceae_u_g,31957,70.07,1236025,2324
+Corynebacterium,1716,0.01108,1993.87,16847
+Micrococcus,1269,0.55,9755,24290
+Staphylococcus,1279,1.5424000000000002,31391.960000000003,14392
+Acinetobacter,469,0.01,124,88
+Pseudomonas,286,0.01,130,254
+Caulobacter,75,0.01,175,3076

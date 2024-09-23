@@ -1,0 +1,19 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Rothia_u_t,32207,0.14,92,1005
+Microbacterium sp. KROCY2_u_t,1305732,0.9,572,2954
+Propionibacterium sp. 5_U_42AFAA_u_t,450748,11.34,7188,61
+Propionibacteriaceae_u_t,31957,0.14,91,122
+Corynebacterium sp. ATCC 6931_u_t,1487956,0.26,167,3680
+Pseudonocardia sp. P2_u_t,882856,3.87,2455,8257
+Staphylococcus sp. MDS7B_u_t,1209359,0.41,260,758
+Staphylococcus_u_t,1279,0.65,410,47
+Streptococcus_u_t,1301,0.38,242,80
+Lactobacillus_u_t,1578,0.21,132,22
+Granulicatella_u_t,117563,0.14,92,13
+Veillonella_u_t,29465,0.14,87,13
+Herbaspirillum_u_t,963,0.15,94,20
+Neisseria_u_t,482,0.25,157,113
+Acinetobacter sp. MDS7A_u_t,1209355,0.37,236,3915
+Acinetobacter_u_t,469,0.19,121,159
+Roseomonas_u_t,125216,0.15,94,2282
+Prevotella_u_t,838,0.15,97,262

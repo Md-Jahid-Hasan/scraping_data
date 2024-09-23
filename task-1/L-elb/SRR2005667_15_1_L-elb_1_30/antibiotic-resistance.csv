@@ -1,0 +1,8 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Tetracycline tet 39,,-,14.42,308105.0,46.02,42.92,191
+AR 277 676 2398 Branch,,-,27.39,585300.0,55.68,55.68,483
+Tetracycline tet 2374 Branch,,-,6.83,145942.0,47.83,47.83,11
+Sulphonamide sul2,,-,12.77,272794.0,42.26,42.26,359
+Beta-lactam-resistance blaOXA 362,,-,10.17,217365.0,46.0,50.0,24
+Beta-lactam-resistance blaMOX 1366 Branch,,-,15.81,337824.0,59.52,92.59,25
+Beta-lactam-resistance blaCARB 1774 Branch,,-,12.61,269315.0,50.15,50.15,172

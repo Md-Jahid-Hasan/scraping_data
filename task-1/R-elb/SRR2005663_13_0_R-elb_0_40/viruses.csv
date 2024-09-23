@@ -1,0 +1,18 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
+Human papillomavirus type 5,333923,31.23,292646.0,36.41,36.29,1852
+Human papillomavirus type 96,247269,6.32,59205.0,8.36,8.36,562
+Human papillomavirus type 10,333759,5.36,50244.0,7.73,7.73,415
+Human papillomavirus type 109,915426,1.4,13095.0,2.67,2.67,107
+Propionibacterium phage PHL060L00,1235647,2.35,21992.0,3.76,1.41,66
+Pa6virus,1982251,1.88,17592.0,4.51,4.51,18
+Propionibacterium phage P100D,1229789,3.64,34069.0,5.74,1.77,69
+Propionibacterium phage P1.1,1229792,3.4,31821.0,5.33,1.43,57
+Propionibacterium phage P14.4,1229784,2.5,23434.0,4.03,1.38,71
+Phietavirus,1623298,2.27,21282.0,2.9,2.48,90
+Staphylococcus phage StB27,1147044,1.4,13130.0,2.14,2.13,446
+Staphylococcus phage StB12,1147042,0.88,8197.0,1.46,1.36,343
+Staphylococcus phage StB20,1147043,8.62,80808.0,9.86,10.03,2485
+Streptococcus phage EJ-1,12402,2.24,20954.0,3.02,3.01,751
+Merkel cell polyomavirus,493803,19.49,182681.0,26.21,26.19,775
+Human immunodeficiency virus 1,11676,5.87,55044.0,4.6,4.6,540
+Equine infectious anemia virus,11665,1.17,10974.0,1.54,1.54,220
