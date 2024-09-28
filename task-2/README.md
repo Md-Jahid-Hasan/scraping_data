@@ -1,5 +1,13 @@
 # Web Scraper for scrape a specific source
 
+## Database requirements
+Make sure you have postgresql installed in your system and create a database named **my_notebook**.
+Now create a .env file in the root directory and add the following lines
+```
+PGUSER={postgres_username}
+PASSWORD={postgres_password}
+```
+
 ## For run this project follow bellow command
 
 1. Python3 and Pip and Venv Must be installed in your system
