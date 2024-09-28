@@ -1,7 +1,7 @@
 # Web Scraper for scrape a specific source
 
 ## Database requirements
-Make sure you have postgresql installed in your system and create a database named **my_notebook**.
+Make sure you have postgresql installed in your system and create a database named **backend_interview**.
 Now create a .env file in the root directory and add the following lines
 ```
 PGUSER={postgres_username}
