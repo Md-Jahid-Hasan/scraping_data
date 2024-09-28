@@ -1,27 +1,44 @@
-# Web Scraper for scrape a specific source
+# Web Scraper for a Specific Source
+This script(`scraper.py`) is designed to scrape data from a specified source and store it in a PostgreSQL database
 
-## Database requirements
-Make sure you have postgresql installed in your system and create a database named **backend_interview**.
-Now create a .env file in the root directory and add the following lines
+## Database Requirements
+Ensure PostgreSQL is installed on your system and create a database named **backend_interview**.
+Then, create a `.env` file in the root directory and add the following lines:
 ```
 PGUSER={postgres_username}
 PASSWORD={postgres_password}
 ```
 
-## For run this project follow bellow command
+# Project Setup
+## Prerequisites
 
-1. Python3 and Pip and Venv Must be installed in your system
-2. Now create a virtual environment and active it.
-3. Run the command below to install all the packages
+1. Python 3, pip, and virtualenv must be installed on your system.
+2. Create a virtual environment and activate it:<br>
+   Create a virtual environment -
+    ```
+    virtualenv venv
+    ```
+   Activate the virtual environment - <br>
+   for ubuntu
+    ```
+    source venv/bin/activate
+    ```
+   for windows
+    ```
+    venv\Scripts\activate
+    ```
+3. Install the required dependencies by running the following command:
    ```
    pip install -r requirements.txt
    ```
-4. Make sure you are in right directory and run this command
-    ```
+4. Ensure you are in the correct directory and execute the scraper script:
+
+   for ubuntu
+   ```
    python3 scraper.py
    ```
-   for ubuntu
+   for windows
     ```
    python scraper.py
    ```
-   for windows
+   

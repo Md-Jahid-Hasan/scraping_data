@@ -1,24 +1,48 @@
-# Web Scraper for scrape a specific source
+# Web Scraper for Extracting Data from a Specific Source
+This project is a Python-based web scraper designed to extract data from a specific source and organize it into designated 
+folders. Follow the instructions below to set up and run the project on your system.
 
-## For run this project follow bellow command
+# Project Setup
+## Prerequisites
+1. Python 3, pip, and virtualenv must be installed on your system.
 
-1. Python3 and Pip and Venv Must be installed in your system
-2. Now create a virtual environment and active it.
-3. Run the command below to install all the packages
+2. Create a virtual environment and activate it:<br>
+      Create a virtual environment - 
+    ```
+    virtualenv venv
+    ```
+    Activate the virtual environment - <br>
+   for ubuntu
+    ```
+    source venv/bin/activate
+    ```
+    for windows
+    ```
+    venv\Scripts\activate
+    ```
+3. Install the required dependencies by running the following command:
    ```
    pip install -r requirements.txt
    ```
-4. Make sure you are in right directory and run this command
-    ```
+4. Ensure you are in the correct directory and execute the scraper script:
+
+   for ubuntu
+   ```
    python3 scraper.py
    ```
-   for ubuntu
+   for windows
     ```
    python scraper.py
    ```
-   for windows
+   
 
-## Download Data folder
-folder named with L-ear, L-elb, R-ear, R-elb is containing the data need to 
-download. If you want to see how download the data you can delete the folder before
-you run scripts. This only the folder structure for the data.
+## Downloading Data
+The scraper downloads and organizes data into specific folders named L-ear, L-elb, R-ear, and R-elb. These folders 
+contain the data that the scraper collects.
+   * Folder Structure: If the folders are already present in your directory, the scraper will replace the data. 
+   However, if you'd like to see how the scraper works and downloads the data, 
+   you can delete these folders before running the script.
+
+
+### Additional Information
+* Ensure that your internet connection is stable to avoid interruptions while the scraper downloads data.
