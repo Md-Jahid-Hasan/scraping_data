@@ -1,5 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Trimethoprim dfrC,,-,69.29,5216445.0,100.0,100.0,7405
-Tetracycline tetK,,-,19.22,1446656.0,95.65,95.65,4615
-Beta-lactam-resistance bla 1022 1943 4 Branch,,-,8.52,641251.0,50.9,50.9,770
-Beta-lactam-resistance blaTEM 213,,-,2.98,224173.0,72.0,63.16,12

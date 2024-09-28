@@ -1,6 +1,10 @@
-import json, asyncio, requests, aiohttp
+import csv
+import json
+import asyncio
+import os
 
-from db import Database
+import requests
+import aiohttp
 
 
 class Scraper:
@@ -8,7 +12,6 @@ class Scraper:
     folder_url = "https://app.cosmosid.com/api/metagenid/v3/users/60ea9ada-383f-4f6a-a4ae-8e8269df6c23/structure?limit=-1"
     sample_data_url = "https://app.cosmosid.com/api/search/v1/search"
     file_location = "credentials.json"
-    db = Database()
     headers = {
         'accept': 'application/json, text/plain, */*',
         'content-type': 'application/json',
@@ -32,8 +35,8 @@ class Scraper:
         if self.token == "":
             print("Invalid token is generated, something went wrong")
         else:
-            self.folder_information = self.get_folder_data()
-            asyncio.run(self.parsing_folder())
+            self.folder_information = self.get_folder_data()  # get folder information
+            asyncio.run(self.parsing_folder())                # parsing each folder and download data for each sample
 
         file.close()
 
@@ -152,9 +155,15 @@ class Scraper:
             print(f"Failed to format data for downloading inside download_data, because: {e}")
 
         try:
-            self.db.save_result_data(all_data, folder, sample_name, result_name)
+            directory = f"{folder}/{sample_name}"
+            file_name = f"{result_name}.csv"
+            filepath = os.path.join(directory, file_name)
+            os.makedirs(directory, exist_ok=True)
+            with open(filepath, mode="w", newline="") as file:
+                writer = csv.writer(file)
+                writer.writerows(all_data)
         except Exception as e:
-            print(f"Failed to save data for downloading inside download_data for {folder}/{sample_name}/{result_name}, because: {e}")
+            print(f"Failed to save data for {filepath} because: {e}")
 
     def prepare_table_data_for_bacteria(self, response, folder, sample_name):
         """This method only prepare and download bacteria and its taxonomy data as csv
@@ -208,9 +217,17 @@ class Scraper:
         # save the final Data
         for key in table_data:
             try:
-                self.db.save_taxonomy_data(table_data[key], folder, sample_name, key)
+                print(f"Saving data in {folder}/{sample_name}/bacteria/{key}.csv")
+                directory = f"{folder}/{sample_name}/bacteria/"
+                file_name = f"{key}.csv"
+                filepath = os.path.join(directory, file_name)
+                os.makedirs(directory, exist_ok=True)
+                with open(filepath, mode='w', newline='') as file:
+                    writer = csv.DictWriter(file, fieldnames=table_data[key][0].keys())
+                    writer.writeheader()
+                    writer.writerows(table_data[key])
             except Exception as e:
-                print(f"Failed save data for bacteria: {key} because: {e}")
+                print(f"Failed to download data as csv for bacteria - {key} because: {e}")
         return table_data
 
     def map_data(self, data, columns) -> list[dict]:
@@ -365,6 +382,5 @@ class Scraper:
         except Exception as e:
             print(f"Failed to get sample data for id {folder_id} because: {e}")
             return []
-
 
 Scraper()

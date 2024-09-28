@@ -17,3 +17,8 @@
    python scraper.py
    ```
    for windows
+
+## Download Data folder
+folder named with L-ear, L-elb, R-ear, R-elb is containing the data need to 
+download. If you want to see how download the data you can delete the folder before
+you run scripts. This only the folder structure for the data.

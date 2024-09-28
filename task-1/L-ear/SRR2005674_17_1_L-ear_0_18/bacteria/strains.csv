@@ -1,9 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Staphylococcus sp. MDS7B_u_t,1209359,11.21,18428,36540
-Staphylococcus_u_t,1279,0.15,243,71
-Streptococcus sp. DORA_10_u_t,1403937,0.05,78,306
-Streptococcus_u_t,1301,0.06,101,74
-Granulicatella_u_t,117563,0.08,135,19
-Rothia_u_t,32207,0.05,80,226
-Propionibacteriaceae_u_t,31957,0.12,200,23
-Neisseriaceae_u_t,481,0.07,117,20

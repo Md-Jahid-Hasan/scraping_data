@@ -1,7 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Phenicol dha1,,-,19.92,332213.0,49.84,49.84,464
-Repressor-of-MepA mepR,,-,17.28,288162.0,46.7,46.7,212
-Trimethoprim dfrC,,-,16.61,276958.0,50.81,50.81,166
-arlR,,-,16.59,276678.0,49.3,49.3,206
-Aminoglycoside aac3 Ik,,-,15.01,250370.0,46.72,46.72,152
-Aminoglycoside aph,,-,14.6,243559.0,41.06,41.06,246

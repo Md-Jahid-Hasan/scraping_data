@@ -1,8 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Cutibacterium,1912216,25.16,94319,614
-Propionibacterium,1743,25.06348,169484.87,120
-Micrococcus,1269,0.03,128,30
-Staphylococcus,1279,7.0859000000000005,110416.06999999999,130148
-Streptococcus,1301,0.02,82,149
-Escherichia,561,0.09,331,391
-Caulobacter,75,0.03,133,2166

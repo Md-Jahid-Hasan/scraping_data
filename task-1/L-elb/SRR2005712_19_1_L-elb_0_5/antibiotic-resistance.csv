@@ -1,7 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-Phenicol cm 2318 Branch,,-,17.02,341140.0,48.21,48.21,402
-Aminoglycoside aph6 Id,,-,36.73,736308.0,82.98,82.98,864
-Beta-lactam-resistance blaTEM 1205 Branch,,-,8.46,169597.0,64.71,64.71,11
-Beta-lactam-resistance blaTEM 207,,-,15.25,305636.0,100.0,100.0,11
-Beta-lactam-resistance blaTEM 95,,-,14.28,286220.0,100.0,100.0,14
-Beta-lactam-resistance blaTEM 108,,-,8.28,165916.0,46.67,40.74,22

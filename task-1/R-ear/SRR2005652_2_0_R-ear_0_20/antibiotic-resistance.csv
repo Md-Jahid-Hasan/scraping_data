@@ -1,6 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency,unique_matches_frequency
-MDR-Efflux-pump qacA,,-,10.32,712014.0,86.67,76.42,240
-Trimethoprim dfrC,,-,58.13,4009505.0,100.0,100.0,5666
-Macrolide ermX,,-,13.94,961361.0,55.77,55.77,2672
-Macrolide msrA,,-,9.86,680291.0,54.08,54.08,3132
-Macrolide mphC,,-,7.75,534552.0,44.0,44.0,2111
