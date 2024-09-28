@@ -16,10 +16,13 @@ class Scraper:
     }
 
     def __init__(self):
+        """authorization_token is the hash format of credentials. Endpoint don't accept the user credential
+                It only accepts the hash format of credentials."""
         self.authorization_token = "ZGVtb19lc3RlZTJAY29zbW9zaWQuY29tOnh5emZnMzIx"
         with open(self.file_location, "r") as file:
             self.file_data = json.load(file)
 
+        # If access token is already generated collecting it from the credentials.py file
         if not self.file_data.get('token'):
             self.token = self.generate_token()
             self.file_data['token'] = self.token
@@ -32,7 +35,9 @@ class Scraper:
         if self.token == "":
             print("Invalid token is generated, something went wrong")
         else:
+            # get folder information
             self.folder_information = self.get_folder_data()
+            # parsing each folder and download data for each sample
             asyncio.run(self.parsing_folder())
 
         file.close()
@@ -44,10 +49,11 @@ class Scraper:
         """
         all_sample = {}
         try:
-            # collect all sample information and mapped it with folder title
+            # collect all sample information and mapped it with folder title for save data in correct ordering
             async with aiohttp.ClientSession() as session:
                 tasks = []
                 for folder in self.folder_information:
+                    # mapping with title
                     tasks.append((folder['title'], self.get_sample_data(session, folder['id'])))
                 result = await asyncio.gather(*[task[1] for task in tasks])
 
@@ -157,7 +163,7 @@ class Scraper:
             print(f"Failed to save data for downloading inside download_data for {folder}/{sample_name}/{result_name}, because: {e}")
 
     def prepare_table_data_for_bacteria(self, response, folder, sample_name):
-        """This method only prepare and download bacteria and its taxonomy data as csv
+        """This method only prepare and save bacteria and its taxonomy data as csv
         :param response: response data from api
         :param folder: folder name for save data in correct ordering
         :param sample_name: sample name for save data in correct ordering
