@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Malassezia restricta CBS 7877,425264,87.46,104666.0,10.31,10.3,16064
+Malassezia globosa CBS 7966,425265,4.51,5399.0,0.75,0.74,1089
+Balansia obtecta B249,1405085,7.36,8813.0,1.09,1.11,1923
+Debaryomyces hansenii CBS767,284592,0.66,795.0,0.15,0.14,206

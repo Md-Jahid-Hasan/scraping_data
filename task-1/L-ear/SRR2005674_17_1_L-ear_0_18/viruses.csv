@@ -1,0 +1,21 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage Ipla5,1197952,15.87,2523992.0,27.31,14.47,108027
+Staphylococcus phage PH15,399185,13.93,2215836.0,28.83,11.85,84333
+Staphylococcus phage Ipla7,1197953,12.23,1945450.0,28.07,11.49,54242
+Staphylococcus phage CNPH82,398839,7.91,1257863.0,22.99,7.11,44737
+Staphylococcus phage 96,320842,2.9,460797.0,35.64,4.68,316
+Staphylococcus phage StauST398-5,1308897,16.64,2646420.0,96.6,95.49,6241
+Staphylococcus phage StauST398-4,1308896,13.56,2156255.0,93.61,97.96,18543
+Staphylococcus phage TEM123,1168613,5.56,883790.0,47.3,2.2,372
+Staphylococcus phage tp310-2,445516,1.46,232181.0,10.48,15.92,7238
+Staphylococcus phage StB27,1147044,1.07,170631.0,7.69,7.61,14873
+Staphylococcus phage StB12,1147042,0.29,46078.0,3.9,3.41,3908
+Staphylococcus phage StB20,1147043,2.89,459212.0,6.56,3.16,21986
+Staphylococcus phage Pvl108,360398,0.54,85405.0,33.17,6.68,586
+Staphylococcus phage 42E,320837,0.51,81601.0,5.8,9.35,2798
+Sextaecvirus,1922243,0.21,33849.0,2.59,2.59,543
+Pa6virus,1982251,0.09,14448.0,3.18,3.18,12
+Staphylococcus phage phiPVL-CN125,648017,1.13,179344.0,15.58,1.97,77
+Human papillomavirus type 154,1195796,0.06,9525.0,2.07,2.07,79
+Staphylococcus phage tp310-3,445517,2.85,453759.0,27.44,18.36,831
+Staphylococcus phage phi2958PVL,430796,0.29,45460.0,5.67,22.28,588

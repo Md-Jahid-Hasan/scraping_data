@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus_u_t,1279,2.07,330,932
+Propionibacterium sp. 5_U_42AFAA_u_t,450748,20.21,3221,136
+Propionibacteriaceae_u_t,31957,0.94,150,46
+Kocuria_u_t,57493,0.56,89,17
+Klebsiella_u_t,570,0.9,144,396

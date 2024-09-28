@@ -1,0 +1,17 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus,1279,20.260560000000005,193515.9,135556
+Brochothrix,2755,0.13,484,9044
+Leuconostoc,1243,0.07,276,2039
+Lactobacillus,1578,0.03,100,7
+Streptococcus,1301,0.02,78,35
+Veillonella,29465,0.02,78,12
+Corynebacterium,1716,2.16317,167643.56,1860721
+Cutibacterium,1912216,0.86027,3297.18,704
+Propionibacterium,1743,0.85381,4587.76,9077
+Kocuria,57493,0.03,121,1319
+Rothia,32207,0.030289999999999997,203.61,1207
+Micrococcus,1269,0.1,385,377
+Actinomyces,1654,0.04245,1076.94,17115
+Neisseriaceae_u_g,481,0.03,129,15
+Neisseria,482,0.03,93,116
+Prevotella,838,0.02,82,152

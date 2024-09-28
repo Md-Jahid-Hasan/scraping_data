@@ -1,0 +1,11 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,18.25,995123.0,78.57,66.83,1035
+Staphylococcus aureus G 1466 Branch,,-,4.36,237935.0,57.14,57.14,40
+Staphylococcus aureus GI 33390942,,-,5.37,292703.0,57.32,57.32,94
+Staphylococcus lentus GENE repC,,-,9.91,540411.0,73.55,73.55,623
+Staphylococcus lentus GENE pre,,-,5.47,298433.0,47.06,47.06,348
+Enterococcus faecium GI 21886745,,-,35.35,1927646.0,100.0,100.0,259
+Enterococcus hirae GENE ermB,,-,2.42,132176.0,100.0,100.0,3
+Proteus mirabilis GENE tnpA,,-,5.9,321888.0,100.0,100.0,20
+Salmonella Typhimurium GI 46019645,,-,8.73,475824.0,53.04,53.04,669
+Klebsiella pneumoniae GENE blaMOX-2,,-,4.24,230977.0,46.28,46.28,110

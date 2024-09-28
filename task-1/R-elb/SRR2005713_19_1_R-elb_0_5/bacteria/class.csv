@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Bacilli,91061,4.4511199999999995,3362.78,20692
+Negativicutes,909932,3.71,326,248
+Clostridia,186801,3.53,310,6
+Tissierellia,1737404,1.98,174,661
+Actinobacteria,1760,8.47035,1968.0899999999997,11229
+Betaproteobacteria,28216,6.78414,1504.4,7243
+Alphaproteobacteria,28211,1.29,114,1386
+Gammaproteobacteria,1236,1.70376,269.05,1152
+Bacteroidia,200643,3.30501,770.11,5720

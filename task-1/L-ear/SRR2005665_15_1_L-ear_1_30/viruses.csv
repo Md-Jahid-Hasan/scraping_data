@@ -1,0 +1,4 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Merkel cell polyomavirus,493803,56.23,138253.0,20.01,20.14,671
+Staphylococcus phage StB20,1147043,36.13,88847.0,10.36,10.56,3020
+Human papillomavirus type 4,10617,7.64,18784.0,3.61,3.61,144

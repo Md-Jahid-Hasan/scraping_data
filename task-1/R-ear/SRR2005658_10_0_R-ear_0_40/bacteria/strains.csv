@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. MDS7B_u_t,1209359,0.22,162,529
+Staphylococcus_u_t,1279,0.4,297,801
+Streptococcus_u_t,1301,0.18,131,15
+Kocuria_u_t,57493,0.15,109,13
+Propionibacteriaceae_u_t,31957,0.94,689,78
+Acinetobacter_u_t,469,0.17,122,368
+Acinetobacter sp. CIP 101966_u_t,1144662,0.76,559,334
+Brevundimonas_u_t,41275,0.17,121,39

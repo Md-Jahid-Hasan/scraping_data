@@ -1,0 +1,25 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage P954,668618,6.79,108428.0,28.9,8.07,409
+Staphylococcus phage phiBU01,1519999,6.03,96305.0,28.08,4.66,161
+Staphylococcus phage StauST398-4,1308896,3.14,50211.0,27.85,1.4,54
+Staphylococcus phage TEM123,1168613,6.32,100946.0,27.08,3.27,124
+Staphylococcus phage SA12,1347760,1.85,29486.0,24.52,1.01,27
+Staphylococcus phage StauST398-5,1308897,6.56,104765.0,12.9,20.1,365
+Staphylococcus phage tp310-2,445516,1.46,23347.0,3.45,7.76,449
+Staphylococcus phage StB20,1147043,1.57,25170.0,3.4,1.92,548
+Staphylococcus phage 11,12360,11.02,176100.0,26.01,9.91,114
+Staphylococcus phage 69,320834,3.16,50493.0,20.35,2.08,70
+Phietavirus,1623298,4.75,75845.0,16.36,6.04,111
+Staphylococcus phage phiMR25,487152,2.3,36802.0,16.79,1.98,83
+Staphylococcus phage phiETA2,326036,3.6,57474.0,21.02,2.37,54
+Staphylococcus phage Ipla7,1197953,6.71,107129.0,11.63,16.3,2943
+Staphylococcus phage CNPH82,398839,1.75,27916.0,4.73,3.38,651
+Staphylococcus phage PH15,399185,1.9,30341.0,4.57,3.08,773
+Staphylococcus phage Ipla5,1197952,1.76,28123.0,4.57,3.16,461
+Staphylococcus phage 55,320845,5.21,83238.0,11.97,1.45,44
+Siphoviridae,10699,0.56,8975.0,2.2,2.2,13
+Staphylococcus phage phiPVL-CN125,648017,2.92,46622.0,6.85,1.03,12
+Staphylococcus phage PT1028,320831,5.03,80410.0,10.39,10.39,1321
+Merkel cell polyomavirus,493803,0.82,13115.0,2.88,2.83,74
+Staphylococcus phage tp310-3,445517,7.56,120723.0,13.91,7.95,161
+Staphylococcus phage tp310-1,445515,7.24,115726.0,14.83,2.93,14

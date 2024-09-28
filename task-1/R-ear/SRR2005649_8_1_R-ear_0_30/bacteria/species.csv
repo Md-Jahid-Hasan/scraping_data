@@ -1,0 +1,15 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus aureus,1280,31.72,4476,2699
+Staphylococcus epidermidis,1282,3.12,440,127
+Staphylococcus_u_s,1279,2.23,315,33
+Staphylococcus capitis,29388,0.6,84,34
+Staphylococcus caprae,29380,3.94,556,9370
+Finegoldia magna,1260,0.77,109,46
+Corynebacterium jeikeium,38289,0.56,78,21
+Corynebacterium sp. KPL1856,1203563,25.42,3587,14
+Corynebacterium pseudogenitalium,38303,14.14,1995,13026
+Corynebacterium tuberculostearicum,38304,13.74,1939,10235
+Corynebacterium striatum,43770,1.72,243,6447
+Actinomyces neuii,33007,0.79,111,33
+Propionibacteriaceae_u_s,31957,0.58,82,152
+Prevotella bivia,28125,0.67,95,616

@@ -1,0 +1,17 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcaceae,90964,72.61721,144664.72,134459
+Listeriaceae,186820,0.88,1518,26603
+Streptococcaceae,1300,0.14,238,609
+Leuconostocaceae,81850,0.22,386,2776
+Aerococcaceae,186827,0.07,112,1987
+Veillonellaceae,31977,0.22268,844.5899999999999,778
+Selenomonadaceae,1843491,0.08,137,1121
+Corynebacteriaceae,1653,0.23825999999999997,13712.32,141273
+Propionibacteriaceae,31957,1.46494,5060.03,2387
+Actinomycetaceae,2049,0.22329,2646.9800000000005,37240
+Micrococcaceae,1268,0.10215,536.78,1934
+Neisseriaceae,481,0.06434,855.03,7015
+Burkholderiaceae,119060,0.21,357,7726
+Prevotellaceae,171552,0.17,284,372
+Tannerellaceae,2005525,0.06,97,83
+Flavobacteriaceae,49546,0.0811,320.51,4509

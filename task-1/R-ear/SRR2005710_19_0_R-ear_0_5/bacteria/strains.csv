@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. JGI 0001002-I23_u_t,1157683,0.14,326,486
+Staphylococcus_u_t,1279,0.2,461,129
+Streptococcus_u_t,1301,0.07,151,9
+Propionibacterium sp. KPL1844_u_t,1203573,5.53,12711,157277
+Propionibacteriaceae_u_t,31957,0.04,89,190
+Microbacterium sp. KROCY2_u_t,1305732,0.12,275,1231
+Neisseriaceae_u_t,481,0.04,99,18
+Neisseria_u_t,482,0.03,80,39
+Capnocytophaga_u_t,1016,0.06,131,11

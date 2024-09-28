@@ -1,0 +1,6 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Malassezia,55193,0.06,884.0,0.23,0.2,28
+Malassezia restricta CBS 7877,425264,81.97,1314141.0,73.9,73.83,323566
+Malassezia globosa CBS 7966,425265,13.34,213796.0,19.26,19.25,33402
+Melampsora pinitorqua Mpini7,1298852,0.23,3694.0,0.95,0.32,1903
+Balansia obtecta B249,1405085,4.41,70640.0,4.05,4.14,28340

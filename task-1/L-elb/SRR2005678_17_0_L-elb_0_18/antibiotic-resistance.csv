@@ -1,0 +1,17 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+MDR-Efflux-pump qacA,,-,9.16,830504.0,94.74,86.99,422
+Plasmid-or-transposon-encoded-chloramphenicol-exporter cmx,,-,4.0,362480.0,61.99,100.0,8
+Aminoglycoside sat 2182 Branch,,-,6.77,613558.0,85.07,85.07,491
+Aminoglycoside 2024 Branch,,-,5.34,483901.0,78.57,78.57,316
+Aminoglycoside aac6' aph2'',,-,12.15,1101160.0,95.98,95.98,3144
+Aminoglycoside aadD,,-,10.76,974749.0,87.7,87.7,1449
+Tetracycline tetK,,-,8.56,775868.0,85.45,85.45,1699
+Aminoglycoside aadC,,-,7.58,686471.0,74.32,74.32,726
+Macrolide msrA,,-,6.17,559426.0,50.72,50.72,2379
+Aminoglycoside aph3' III,,-,5.35,484874.0,76.73,76.73,372
+Aminoglycoside aph6 Id,,-,4.99,452135.0,72.95,72.95,328
+Trimethoprim dfrC,,-,4.78,433558.0,65.45,65.45,327
+Macrolide mphC,,-,3.75,340012.0,40.26,40.26,1005
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,5.62,509144.0,45.66,45.66,535
+Beta-lactam-resistance blaTEM 40,,-,2.11,190813.0,66.67,53.33,8
+Beta-lactam-resistance blaOXA 373,,-,2.9,262668.0,50.0,65.22,108

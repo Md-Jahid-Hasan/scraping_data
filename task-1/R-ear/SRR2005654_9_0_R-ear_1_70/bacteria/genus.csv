@@ -1,0 +1,9 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus,1279,26.72871,74449.57,34085
+Alloiococcus,1651,0.08,144,2204
+Streptococcus,1301,0.07,113,10
+Cutibacterium,1912216,17.113870000000002,41116.97,51523
+Propionibacterium,1743,16.64881,49839.33,346715
+Propionibacteriaceae_u_g,31957,0.12,218,486
+Corynebacterium,1716,5.35,9378,603240
+Caulobacter,75,0.08,138,2450

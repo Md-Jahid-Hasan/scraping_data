@@ -1,0 +1,10 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Tetracycline tet 2374 Branch,,-,0.7,1219637.0,47.83,47.83,128
+Tetracycline tetK,,-,80.36,139055227.0,98.51,98.51,474965
+Aminoglycoside aadD,,-,9.96,17238362.0,92.62,92.62,33423
+bleomycin resistance protein BRP,,-,4.03,6974538.0,61.09,61.09,12606
+Trimethoprim dfrC,,-,2.66,4600202.0,92.28,92.28,6599
+Aminoglycoside aac6' aph2'',,-,1.58,2742250.0,98.28,98.28,11140
+Macrolide ermX,,-,0.16,277007.0,44.05,44.05,349
+Aminoglycoside aadC,,-,0.13,232557.0,40.86,40.86,177
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,0.4,696999.0,50.0,50.0,963

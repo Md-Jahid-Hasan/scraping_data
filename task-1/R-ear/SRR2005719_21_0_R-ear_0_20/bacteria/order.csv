@@ -1,0 +1,7 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Propionibacteriales,85009,25.61209,263804.18,734
+Micrococcales,85006,0.03,128,30
+Bacillales,1385,7.0859000000000005,110416.06999999999,130148
+Lactobacillales,186826,0.02,82,149
+Enterobacterales,91347,0.09,331,391
+Caulobacterales,204458,0.03,133,2166

@@ -1,0 +1,8 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Beta-lactam cfxA 2367 Branch,,-,8.56,1259198.0,87.47,100.0,160
+Tetracycline tetM,,-,7.61,1119037.0,42.72,42.57,14149
+Macrolide ermA,,-,2.38,350730.0,44.39,61.07,812
+Trimethoprim dfrC,,-,59.27,8721126.0,100.0,100.0,12252
+Quinolone norA,,-,13.53,1990307.0,46.52,46.52,17032
+Tetracycline tetQ,,-,4.81,707438.0,48.31,48.31,5126
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,3.85,566368.0,43.11,43.11,742

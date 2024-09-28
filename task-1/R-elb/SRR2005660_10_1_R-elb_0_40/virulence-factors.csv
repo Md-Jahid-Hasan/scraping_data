@@ -1,0 +1,43 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,6.12,1070980.0,99.03,98.49,1026
+Staphylococcus aureus GI 33390948,,-,2.6,455647.0,76.9,62.98,233
+Staphylococcus aureus GENE sdr 1604 Branch,,-,6.4,1119420.0,62.36,63.71,552
+Staphylococcus aureus GENE cap 1572 Branch,,-,5.12,896122.0,62.73,76.47,259
+Staphylococcus aureus GENE isdB,,-,1.38,240824.0,64.66,55.56,62
+Staphylococcus aureus GENE cap 1491 Branch,,-,3.72,650519.0,53.92,53.92,865
+Staphylococcus aureus GENE fnb 1642 Branch,,-,3.54,620198.0,53.21,53.21,150
+Staphylococcus aureus GENE 1587 Branch,,-,3.54,619703.0,61.11,61.11,16
+Staphylococcus aureus GENE cap 1663 Branch,,-,2.99,522991.0,51.88,51.88,175
+Staphylococcus aureus GENE cap 1575 Branch,,-,2.93,513539.0,52.59,52.59,825
+Staphylococcus aureus GENE set 1668 Branch,,-,2.76,483367.0,84.13,84.13,216
+Staphylococcus aureus GENE cap 1506 Branch,,-,2.63,460712.0,64.05,64.05,660
+Staphylococcus aureus GENE cap 1548 Branch,,-,1.78,311502.0,44.56,44.56,527
+Staphylococcus aureus GeneID SASa0118,,-,3.24,567535.0,69.59,69.59,1101
+Staphylococcus aureus GeneID SAS0119,,-,2.97,519560.0,66.67,66.67,946
+Staphylococcus aureus GI 33390920,,-,2.81,491318.0,77.71,77.71,251
+Staphylococcus aureus GENE dfrA,,-,2.52,441625.0,75.54,75.54,238
+Staphylococcus aureus GENE thyA,,-,2.47,431951.0,65.27,65.27,477
+Staphylococcus aureus GeneID SAS0117,,-,2.38,417284.0,60.11,60.11,539
+Staphylococcus aureus GENE aur,,-,2.33,408543.0,53.83,53.83,809
+Staphylococcus aureus GENE traH,,-,2.21,386968.0,68.31,68.31,209
+Staphylococcus aureus GeneID SASa2550,,-,2.2,384681.0,54.82,54.82,658
+Staphylococcus aureus GeneID SASa0122,,-,2.16,378839.0,55.1,55.1,392
+Staphylococcus aureus GeneID SAS0115,,-,2.08,364581.0,56.56,56.56,379
+Staphylococcus aureus GeneID SASa0120,,-,2.06,361021.0,48.3,48.3,728
+Staphylococcus aureus GENE topB,,-,1.84,322586.0,47.24,47.24,643
+Staphylococcus aureus GI 33390967,,-,1.78,311789.0,59.14,59.14,155
+Staphylococcus aureus GeneID SASa0648,,-,1.67,292736.0,50.96,50.96,247
+Staphylococcus aureus GeneID SASa0125,,-,1.63,285599.0,51.89,51.89,177
+Staphylococcus aureus GeneID SAS0121,,-,1.61,281964.0,44.42,44.42,351
+Staphylococcus aureus GENE traK,,-,1.6,279405.0,42.15,42.15,423
+Staphylococcus aureus GI 33390960,,-,1.59,278164.0,55.07,55.07,125
+Staphylococcus aureus GENE esxA,,-,1.53,267337.0,56.6,56.6,90
+Staphylococcus aureus GENE trsO,,-,1.52,266523.0,55.42,55.42,80
+Staphylococcus aureus GENE essA,,-,1.44,251739.0,43.4,43.4,224
+Staphylococcus aureus GeneID SASa0114,,-,1.44,251427.0,41.39,41.39,275
+Staphylococcus aureus GeneID SASa0647,,-,1.42,248954.0,41.63,41.63,255
+Staphylococcus aureus GeneID SASd0697,,-,1.41,246366.0,47.55,47.55,141
+Staphylococcus aureus GI 33390939,,-,1.27,221924.0,54.76,54.76,41
+Staphylococcus aureus GENE traM,,-,1.16,202836.0,42.5,42.5,93
+Staphylococcus aureus GENE traJ,,-,1.08,189010.0,40.74,40.74,82
+Staphylococcus aureus GENE isdF,,-,1.07,187466.0,51.72,51.72,30

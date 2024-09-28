@@ -1,0 +1,26 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,78.28,179988,1781
+Staphylococcus sp. JGI 0001002-I23,1157683,0.14,326,486
+Staphylococcus capitis,29388,2.34,5381,3647
+Staphylococcus caprae,29380,0.06,141,10816
+Staphylococcus_u_s,1279,0.2,461,129
+Staphylococcus warneri,1292,0.04,90,930
+Staphylococcus lugdunensis,28035,0.03,81,150
+Staphylococcus aureus,1280,3.64,8376,414
+Staphylococcus hominis,1290,0.03,76,542
+Streptococcus_u_s,1301,0.07,151,9
+Cutibacterium acnes,1747,4.59,10543,18
+Cutibacterium granulosum,33011,2.53,5812,13951
+Propionibacterium sp. KPL1844,1203573,5.53,12711,157277
+Propionibacteriaceae_u_s,31957,0.04,89,190
+Corynebacterium jeikeium,38289,0.07,170,38
+Corynebacterium tuberculostearicum,38304,0.7,1603,9406
+Corynebacterium pseudogenitalium,38303,0.67,1539,11030
+Kocuria palustris,71999,0.11,264,1208
+Micrococcus luteus,1270,0.41,951,800
+Microbacterium sp. KROCY2,1305732,0.12,275,1231
+Brachybacterium paraconglomeratum,173362,0.14,317,6255
+Neisseriaceae_u_s,481,0.04,99,18
+Neisseria_u_s,482,0.03,80,39
+Enhydrobacter aerosaccus,225324,0.11,260,3035
+Capnocytophaga_u_s,1016,0.06,131,11

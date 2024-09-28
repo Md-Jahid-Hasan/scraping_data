@@ -1,0 +1,37 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage Ipla7,1197953,16.98,1795240.0,41.41,19.26,53314
+Staphylococcus phage CNPH82,398839,15.55,1644880.0,41.63,20.68,47546
+Staphylococcus phage Ipla5,1197952,13.71,1449288.0,37.81,15.61,52777
+Staphylococcus phage PH15,399185,8.06,852649.0,31.2,11.75,29873
+Staphylococcus phage 96,320842,0.99,104669.0,18.52,1.91,53
+Staphylococcus phage phiETA3,326037,0.95,100241.0,18.28,2.04,103
+Staphylococcus phage phiMR25,487152,0.64,67378.0,8.66,1.1,111
+Staphylococcus phage 69,320834,0.59,62452.0,7.84,2.17,150
+Staphylococcus phage 55,320845,0.76,80370.0,7.12,1.58,72
+Staphylococcus phage phiN315,225979,17.16,1814280.0,90.65,81.05,5380
+Staphylococcus phage phiBU01,1519999,1.15,121654.0,75.95,2.86,46
+Staphylococcus phage P954,668618,0.45,47634.0,58.12,3.25,99
+Staphylococcus phage phiNM3,387909,0.06,6391.0,71.1,1.25,39
+unclassified Siphoviridae,196894,0.29,30396.0,5.94,2.54,52
+Staphylococcus phage TEM123,1168613,3.08,325981.0,24.52,2.52,270
+Staphylococcus phage tp310-2,445516,1.23,129892.0,8.02,17.64,5063
+Staphylococcus phage YMC/09/04/R1988,1399949,0.19,19926.0,3.29,1.61,46
+Staphylococcus phage StauST398-5,1308897,1.08,114759.0,9.41,27.06,1633
+Staphylococcus phage StB12,1147042,0.25,26172.0,3.13,2.94,1469
+Staphylococcus phage StB27,1147044,0.07,7477.0,1.44,1.04,421
+Staphylococcus phage StB20,1147043,0.61,64226.0,5.21,4.72,3971
+Lactobacillus phage phiAT3,279281,0.1,10808.0,1.41,1.46,563
+Staphylococcus phage Pvl108,360398,0.57,60207.0,27.64,4.2,140
+Staphylococcus phage 42E,320837,0.64,67462.0,7.08,7.76,1018
+Pa6virus,1982251,0.05,5362.0,1.59,1.59,8
+Propionibacterium phage P100D,1229789,0.2,21215.0,3.27,1.01,74
+Staphylococcus phage phiPVL-CN125,648017,3.64,384878.0,24.42,6.34,375
+Staphylococcus phage PT1028,320831,2.56,270807.0,14.28,14.28,9637
+Human papillomavirus type 50,40539,0.22,23596.0,3.91,3.91,244
+Human papillomavirus type 134,909333,0.04,4780.0,1.19,1.19,45
+Staphylococcus phage tp310-3,445517,5.89,623025.0,36.67,42.81,2538
+Staphylococcus phage phi2958PVL,430796,1.08,114736.0,9.26,40.44,2278
+Streptococcus phage IC1,1448276,0.14,15008.0,2.72,1.08,150
+Streptococcus phage 20617,1392231,0.13,13561.0,1.99,2.09,576
+Human immunodeficiency virus 1,11676,0.69,73289.0,5.27,5.27,726
+Equine infectious anemia virus,11665,0.19,20477.0,1.74,1.74,513

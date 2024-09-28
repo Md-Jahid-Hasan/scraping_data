@@ -1,0 +1,11 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,25.93,557,57
+Staphylococcus capitis,29388,8.34,179,163
+Staphylococcus_u_s,1279,8.02,172,25
+Staphylococcus haemolyticus,1283,6.58,141,71
+Finegoldia magna,1260,4.62,99,82
+Veillonella_u_s,29465,3.77,81,13
+Propionibacteriaceae_u_s,31957,21.39,459,30
+Rothia dentocariosa,2047,7.46,160,1048
+Corynebacterium kroppenstedtii,161879,8.73,187,4540
+Neisseriaceae_u_s,481,5.16,111,36

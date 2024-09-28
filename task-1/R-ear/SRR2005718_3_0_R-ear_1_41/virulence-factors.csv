@@ -1,0 +1,7 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,42.95,1104968.0,83.44,74.37,1144
+Staphylococcus aureus GI 33390920,,-,18.27,469991.0,78.98,78.98,216
+Staphylococcus aureus GENE dfrA,,-,15.26,392634.0,62.66,62.66,269
+Staphylococcus aureus GENE thyA,,-,10.48,269703.0,43.51,43.51,321
+Staphylococcus aureus GENE blaI,,-,7.46,191965.0,41.8,41.8,79
+Staphylococcus aureus GI 33390939,,-,5.57,143295.0,45.24,45.24,19

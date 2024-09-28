@@ -1,0 +1,29 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+MDR-Efflux-pump qacA,,-,28.09,32483166.0,98.04,86.99,21340
+Aminoglycoside sat4A,,-,1.87,2157773.0,100.0,100.0,147
+Aminoglycoside a 2394 Branch,,-,1.58,1828830.0,100.0,100.0,2543
+Tetracycline tet38,,-,0.7,807819.0,75.58,52.19,1384
+Beta-lactam mec 2271 Branch,,-,0.87,1002354.0,45.52,45.52,5020
+Macrolide m 2021 Branch,,-,0.44,512936.0,43.92,43.92,228
+Tetracycline tet 2374 Branch,,-,0.15,176954.0,47.83,47.83,11
+Aminoglycoside aadD,,-,11.94,13805272.0,91.26,91.26,27144
+Trimethoprim dfrC,,-,9.61,11112871.0,100.0,100.0,15444
+Macrolide msrA,,-,8.25,9543127.0,60.48,60.48,58810
+Macrolide mphC,,-,6.67,7716307.0,47.73,47.73,39470
+Aminoglycoside aac6' aph2'',,-,5.34,6176575.0,100.0,100.0,26648
+Tetracycline tetK,,-,4.49,5195670.0,98.38,98.38,20844
+bleomycin resistance protein BRP,,-,3.73,4310138.0,61.09,61.09,7959
+Aminoglycoside aph3' III,,-,2.37,2745764.0,100.0,100.0,5235
+Quinolone norA,,-,2.09,2413394.0,50.55,50.55,20572
+Aminoglycoside aadC,,-,1.35,1566907.0,60.7,60.7,2412
+Regulator mgrA,,-,1.25,1440532.0,92.89,92.89,1679
+Phenicol dha1,,-,1.11,1282385.0,80.19,80.19,3494
+Repressor-of-MepA mepR,,-,1.06,1223745.0,77.83,77.83,1415
+Aminoglycoside aph,,-,0.99,1149532.0,80.68,80.68,2175
+MDR-Efflux-pump sav1866,,-,0.97,1127292.0,71.5,71.5,4437
+Macrolide lnuA,,-,0.72,836096.0,72.83,72.83,1302
+Efflux-pump mepA,,-,0.7,806656.0,61.04,61.04,2839
+Aminoglycoside aac3 Ik,,-,0.69,800109.0,90.98,90.98,737
+arlR,,-,0.63,728737.0,70.03,70.03,1080
+Response-regulator arlS,,-,0.42,487080.0,56.47,56.47,1132
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,1.91,2207916.0,83.23,83.23,7065

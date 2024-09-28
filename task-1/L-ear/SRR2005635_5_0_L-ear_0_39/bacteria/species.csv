@@ -1,0 +1,56 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,16.05,42317,311
+Staphylococcus sp. DORA_6_22,1403935,3.22,8485,411
+Staphylococcus capitis,29388,1.38,3625,3052
+Staphylococcus lugdunensis,28035,1.74,4586,512
+Staphylococcus_u_s,1279,0.07,179,19
+Staphylococcus aureus,1280,0.91,2392,83
+Streptococcus agalactiae,1311,0.64,1698,684
+Streptococcus parasanguinis,1318,0.05,131,3688
+Facklamia_u_s,66831,0.06,150,15
+Anaerococcus hydrogenalis,33029,0.41,1095,13182
+Anaerococcus senegalensis,1288120,2.72,7174,113110
+Anaerococcus obesiensis,1287640,1.59,4204,39671
+Anaerococcus vaginalis,33037,1.38,3636,31568
+Anaerococcus lactolyticus,33032,0.23,596,5949
+Anaerococcus prevotii,33034,0.17,441,195
+Anaerococcus provencensis,938293,0.48,1267,19850
+Anaerococcus tetradius,33036,0.1,270,10954
+Peptoniphilus grossensis,1465756,3.49,9189,189498
+Peptoniphilus senegalensis,1465757,0.31,815,15763
+Peptoniphilus sp. BV3AC2,1111133,0.21,539,7848
+Peptoniphilus duerdenii,507750,0.16,413,4963
+Peptoniphilus lacrimalis,33031,0.15,399,7854
+Peptoniphilus harei,54005,5.4,14235,251886
+Peptoniphilus rhinitidis,1175452,1.23,3237,30129
+Peptoniphilus timonensis,1268254,0.11,298,4406
+Finegoldia magna,1260,4.5,11867,239682
+Tissierellia bacterium S5-A11,1230730,0.84,2205,17737
+Dialister_u_s,39948,11.38,29990,671
+Negativicoccus succinicivorans,620903,1.7,4476,32285
+Peptostreptococcus anaerobius,1261,1.72,4524,26585
+Peptostreptococcus sp. MV1,1219626,0.03,80,3189
+Clostridioides difficile,1496,0.2,516,1266
+Christensenella_u_s,990721,0.05,143,475
+Corynebacterium sp. KPL1856,1203563,21.07,55528,470
+Corynebacterium pseudogenitalium,38303,0.99,2612,15615
+Corynebacterium tuberculostearicum,38304,0.97,2561,11710
+Corynebacterium striatum,43770,0.37,971,39134
+Actinomyces neuii,33007,4.92,12979,347686
+Varibaculum cambriense,184870,0.37,973,13774
+Mobiluncus_u_s,2050,0.11,293,107
+Propionibacterium_u_s,1743,0.83,2185,31
+Propionibacterium sp. KPL1844,1203573,0.08,216,1824
+Cutibacterium avidum,33010,0.86,2264,666
+Propionibacteriaceae_u_s,31957,0.13,351,10
+Micrococcus luteus,1270,0.14,379,481
+Rothia_u_s,32207,0.03,86,19
+Atopobium sp. BV3Ac4,1111121,0.03,90,231
+Campylobacter ureolyticus,827,0.5,1327,8456
+Prevotella buccalis,28127,2.89,7627,253396
+Prevotella bergensis,242750,1.59,4184,102044
+Prevotella timonensis,386414,0.1,270,11029
+Prevotella sp. BV3P1,1111130,0.64,1693,4940
+Prevotella melaninogenica,28132,0.06,150,5604
+Porphyromonas_u_s,836,0.21,554,49
+Porphyromonas bennonis,501496,0.43,1131,30772

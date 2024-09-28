@@ -1,0 +1,31 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Human polyomavirus 6,746830,80.7,6190432.0,88.3,88.3,66578
+Propionibacterium phage P101A,1229786,0.57,44143.0,7.2,2.54,138
+Propionibacterium phage P100_1,1229791,0.46,34930.0,5.76,2.72,131
+Propionibacterium phage PHL060L00,1235647,0.51,39285.0,6.61,1.87,87
+Propionibacterium phage P105,1229788,0.57,43631.0,6.55,2.05,145
+Propionibacterium phage PHL111M01,1235653,0.55,41945.0,6.63,1.95,131
+Propionibacterium phage PA6,376758,0.64,48961.0,7.3,2.0,120
+Propionibacterium phage P9.1,1229782,0.39,30127.0,5.05,1.56,76
+Propionibacterium phage PHL114L00,1235656,0.22,17274.0,2.66,1.11,132
+Propionibacterium phage ATCC29399B_C,1229794,0.33,25491.0,4.03,2.05,45
+Pa6virus,1982251,0.24,18010.0,3.11,3.11,34
+Propionibacterium phage P14.4,1229784,0.74,56594.0,7.41,1.97,194
+Propionibacterium phage P100D,1229789,0.6,46259.0,7.11,1.74,80
+Propionibacterium phage PHL071N05,1235650,0.55,42157.0,6.4,1.13,63
+Propionibacterium phage P1.1,1229792,0.52,40186.0,6.3,1.86,84
+Propionibacterium phage PHL113M01,1235655,0.51,39386.0,5.97,1.73,89
+Propionibacterium phage P104A,1229787,0.51,38790.0,5.68,1.95,131
+Propionibacterium phage PHL112N00,1235654,0.48,36954.0,5.54,2.18,120
+Propionibacterium phage PHL067M10,1235649,0.36,27481.0,4.47,1.43,72
+Staphylococcus phage StB12,1147042,0.36,27896.0,3.71,3.36,1302
+Staphylococcus phage StB27,1147044,0.19,14929.0,2.37,1.82,834
+Staphylococcus phage StB20,1147043,2.51,192846.0,15.86,16.19,10287
+Siphoviridae,10699,0.21,16526.0,4.5,4.5,10
+Staphylococcus phage Ipla5,1197952,0.34,26429.0,2.73,3.65,1745
+Staphylococcus phage PH15,399185,0.22,16894.0,2.45,2.23,615
+Staphylococcus phage Ipla7,1197953,0.27,21007.0,2.59,3.42,997
+Staphylococcus phage CNPH82,398839,0.11,8430.0,1.74,1.5,222
+Moloney murine leukemia virus,11801,0.18,13827.0,2.76,1.8,51
+Equine infectious anemia virus,11665,1.73,132909.0,1.88,1.88,3678
+Human immunodeficiency virus 1,11676,4.4,337162.0,5.58,5.58,3621

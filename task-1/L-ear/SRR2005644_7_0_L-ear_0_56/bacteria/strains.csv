@@ -1,0 +1,7 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus sp. JGI 0001002-I23_u_t,1157683,0.27,207,577
+Staphylococcus_u_t,1279,0.18,137,237
+Anaerococcus_u_t,165779,0.14,108,297
+Corynebacterium sp. KPL1856_u_t,1203563,21.75,16616,228
+Propionibacteriaceae_u_t,31957,1.6,1225,95
+Propionibacterium sp. KPL1844_u_t,1203573,3.76,2873,19651

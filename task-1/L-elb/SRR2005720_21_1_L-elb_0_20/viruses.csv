@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Human immunodeficiency virus 1,11676,54.85,66308.0,4.6,4.6,683
+Equine infectious anemia virus,11665,15.86,19176.0,1.88,1.88,446
+Siphoviridae,10699,13.41,16217.0,2.25,2.25,62
+Staphylococcus phage StB20,1147043,15.88,19193.0,2.8,2.8,685

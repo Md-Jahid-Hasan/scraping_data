@@ -1,0 +1,14 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage Ipla5,1197952,23.18,296267.0,32.35,9.07,8994
+Staphylococcus phage PH15,399185,17.91,228849.0,26.18,8.44,8723
+Staphylococcus phage CNPH82,398839,27.58,352419.0,35.51,11.44,8386
+Staphylococcus phage Ipla7,1197953,20.97,268043.0,30.88,8.38,7959
+Staphylococcus phage P954,668618,2.56,32738.0,5.33,1.08,98
+unclassified Siphoviridae,196894,1.37,17551.0,3.04,3.04,72
+Staphylococcus phage StB20,1147043,0.99,12693.0,1.52,1.47,816
+Human papillomavirus type 49,10616,0.87,11165.0,2.36,2.36,90
+Human papillomavirus type 50,40539,0.51,6526.0,1.52,1.52,58
+Staphylococcus phage tp310-1,445515,0.92,11727.0,2.16,3.56,17
+Staphylococcus phage phi2958PVL,430796,1.33,17044.0,2.91,1.19,15
+unclassified bacterial viruses,12333,0.48,6177.0,1.13,1.11,35
+Human immunodeficiency virus 1,11676,1.31,16724.0,3.43,3.43,89

@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus,1279,57.555150000000005,160487.16,44895
+Gemella,1378,0.12,194,2118
+Streptococcus,1301,0.16665,1361.44,4710
+Granulicatella,117563,0.08,135,19
+Rothia,32207,0.34362000000000004,1147.81,11216
+Propionibacteriaceae_u_g,31957,0.12,200,23
+Actinomyces,1654,0.18089,438.02,3997
+Corynebacterium,1716,0.15,239,5651
+Neisseriaceae_u_g,481,0.07,117,20

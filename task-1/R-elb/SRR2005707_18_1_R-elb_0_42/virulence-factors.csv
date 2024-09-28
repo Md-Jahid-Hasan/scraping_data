@@ -1,0 +1,8 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,25.7,539909.0,63.96,62.81,460
+Staphylococcus aureus GI 33390939,,-,7.78,163383.0,50.0,50.0,21
+Staphylococcus lentus GENE repC,,-,19.62,412226.0,58.47,58.47,491
+Staphylococcus lentus GI 60416745,,-,7.57,159031.0,58.33,58.33,13
+Vibrio cholerae GENE intI1,,-,13.27,278809.0,100.0,100.0,13
+Klebsiella pneumoniae GENE tnp,,-,13.07,274492.0,55.96,55.96,108
+Enterococcus faecium GI 21886745,,-,12.99,272987.0,49.2,100.0,34

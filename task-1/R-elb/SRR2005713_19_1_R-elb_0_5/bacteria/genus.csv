@@ -1,0 +1,17 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Streptococcus,1301,4.34967,2470.09,12458
+Granulicatella,117563,3.45245,411.57,5734
+Staphylococcus,1279,1.10955,267.99,589
+Gemella,1378,0.94489,213.02,1911
+Veillonella,29465,3.71,326,248
+Clostridiales_u_g,186802,3.53,310,6
+Peptoniphilus,162289,1.98,174,661
+Rothia,32207,8.40369,1381.4499999999998,7823
+Micrococcus,1269,2.19,193,92
+Propionibacteriaceae_u_g,31957,2.48,218,24
+Actinomyces,1654,1.99,175,3290
+Neisseria,482,6.78414,1504.4,7243
+Enhydrobacter,212791,1.29,114,1386
+Haemophilus,724,1.70376,269.05,1152
+Prevotella,838,3.27154,475.57,3879
+Porphyromonas,836,3.35,295,1841

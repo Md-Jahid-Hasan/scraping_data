@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Actinobacteria,1760,27.999090000000002,1732230.94,114402
+Bacilli,91061,1.5424000000000002,31391.960000000003,14392
+Gammaproteobacteria,1236,0.01007,253.71,342
+Alphaproteobacteria,28211,0.01,175,3076

@@ -1,0 +1,25 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage TEM123,1168613,18.4,572743.0,48.49,24.17,1364
+Staphylococcus phage SA12,1347760,2.3,71720.0,40.2,2.65,145
+Staphylococcus phage phiNM,387905,0.31,9595.0,50.86,2.1,30
+Staphylococcus phage P954,668618,6.92,215293.0,44.23,11.18,759
+Staphylococcus phage phiNM3,387909,1.85,57508.0,44.09,1.53,16
+Staphylococcus phage StauST398-4,1308896,1.2,37357.0,35.96,1.76,156
+Staphylococcus phage phiBU01,1519999,2.42,75221.0,37.94,1.74,63
+Staphylococcus phage StauST398-5,1308897,3.97,123617.0,13.47,31.18,884
+Staphylococcus phage tp310-2,445516,1.82,56762.0,6.77,14.46,1123
+Staphylococcus phage Sap26,872294,3.08,95710.0,43.3,2.82,144
+Staphylococcus phage phiMR25,487152,4.24,132029.0,45.56,4.25,399
+Staphylococcus phage 85,59506,1.65,51529.0,44.8,1.96,71
+Staphylococcus phage 11,12360,0.48,14846.0,53.66,1.51,32
+Staphylococcus phage phiETA2,326036,11.08,344778.0,40.85,14.14,628
+Staphylococcus phage phiETA,106284,5.46,169885.0,18.94,5.31,368
+Staphylococcus phage 55,320845,5.19,161575.0,18.43,2.04,108
+Staphylococcus phage 88,320848,6.46,201091.0,22.48,2.99,81
+Staphylococcus phage Pvl108,360398,3.94,122577.0,18.16,1.53,21
+Staphylococcus phage 42E,320837,1.97,61389.0,7.66,5.24,417
+Staphylococcus phage phiPVL-CN125,648017,5.6,174197.0,19.91,1.97,33
+Staphylococcus phage PT1028,320831,1.37,42647.0,5.31,5.31,996
+Staphylococcus phage tp310-3,445517,8.56,266368.0,27.72,5.61,81
+Human immunodeficiency virus 1,11676,1.1,34351.0,4.47,4.47,274
+Equine infectious anemia virus,11665,0.64,20022.0,1.83,1.83,482

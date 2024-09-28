@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus aureus,1280,51.5,2365,17
+Staphylococcus_u_s,1279,2.9,133,26
+Paenibacillus sophorae,1333845,6.0,276,3020
+Aerococcus viridans,1377,4.54,208,188
+Rothia_u_s,32207,3.08,141,13
+Micrococcus luteus,1270,15.77,724,533
+Propionibacteriaceae_u_s,31957,3.26,150,132
+Acinetobacter_u_s,469,2.74,126,121
+Enhydrobacter aerosaccus,225324,10.22,470,4176

@@ -1,0 +1,22 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+MDR-Efflux-pump qacA,,-,12.1,6617524.0,98.04,86.99,5103
+Tetracycline tetM,,-,7.08,3873828.0,42.89,42.74,53324
+Beta-lactam cfxA 2367 Branch,,-,2.67,1462915.0,95.89,100.0,138
+Beta-lactam mec 2271 Branch,,-,5.16,2822336.0,49.49,49.49,18862
+Tetracycline tet 38,,-,0.69,380267.0,57.32,54.68,143
+Macrolide erm 1960 Branch,,-,0.77,421240.0,43.08,43.08,65
+Macrolide msrA,,-,16.52,9036359.0,66.8,66.8,55512
+Macrolide ermX,,-,12.23,6689602.0,56.48,56.48,20607
+Macrolide mphC,,-,9.23,5049037.0,46.52,46.52,26387
+Aminoglycoside aac6' aph2'',,-,8.98,4911504.0,100.0,100.0,21042
+Trimethoprim dfrC,,-,6.55,3582297.0,100.0,100.0,5038
+Tetracycline tetK,,-,3.15,1722643.0,96.14,96.14,5883
+Signal-transcuding-protein mecR1,,-,3.02,1652307.0,53.6,53.6,8458
+Quinolone norA,,-,2.02,1104056.0,49.4,49.4,8547
+Macrolide ermC,,-,1.93,1055288.0,41.53,44.63,5161
+Tetracycline tetQ,,-,1.71,937609.0,53.97,53.97,7201
+Aminoglycoside aadD,,-,1.13,616473.0,85.25,85.25,592
+bleomycin resistance protein BRP,,-,0.69,374437.0,56.91,56.91,338
+arlR,,-,0.61,332451.0,54.62,54.62,283
+Phenicol dha1,,-,0.54,297211.0,46.59,46.59,390
+Beta-lactam-resistance bla 1022 1943 4 Branch,,-,3.19,1746546.0,80.99,80.99,2985

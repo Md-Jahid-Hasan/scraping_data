@@ -1,0 +1,8 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus phage 3A,215167,29.29,61914.0,8.58,1.46,36
+Staphylococcus phage 42E,320837,25.81,54558.0,7.61,1.05,48
+Staphylococcus phage tp310-2,445516,28.9,61070.0,8.29,1.86,99
+Staphylococcus phage ROSA,320843,1.91,4043.0,1.01,1.01,20
+Phietavirus,1623298,6.42,13567.0,2.8,1.63,29
+Staphylococcus phage phiPVL-CN125,648017,2.25,4744.0,1.04,1.37,16
+Merkel cell polyomavirus,493803,5.42,11448.0,2.58,2.57,67

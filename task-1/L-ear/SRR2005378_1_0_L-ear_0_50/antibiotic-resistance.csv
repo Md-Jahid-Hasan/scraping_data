@@ -1,0 +1,6 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Tetracycline tet 2001 Branch,,-,20.67,609664.0,60.56,60.56,449
+Trimethoprim dfrC,,-,32.99,973050.0,89.84,89.84,1052
+Macrolide ermC,,-,23.23,685059.0,41.43,44.63,3035
+Quinolone norA,,-,14.79,436266.0,42.89,42.89,2294
+Regulator mgrA,,-,8.32,245456.0,41.78,41.78,183

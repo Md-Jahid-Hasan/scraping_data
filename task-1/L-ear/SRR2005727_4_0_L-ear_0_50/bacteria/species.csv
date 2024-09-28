@@ -1,0 +1,63 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,57.65,78844,254186
+Staphylococcus capitis,29388,1.07,1468,12716
+Staphylococcus sp. TE8,1472720,0.29,395,1193
+Staphylococcus caprae,29380,0.14,189,14291
+Staphylococcus_u_s,1279,0.24,325,12
+Staphylococcus haemolyticus,1283,0.18,239,115
+Staphylococcus warneri,1292,0.07,91,2315
+Staphylococcus xylosus,1288,0.12,171,45
+Staphylococcus lugdunensis,28035,0.09,128,1826
+Staphylococcus pettenkoferi,170573,0.72,989,20990
+Staphylococcus hominis,1290,0.21,280,140
+Facklamia languida,82347,0.08,116,1771
+Dolosigranulum pigrum,29394,4.91,6720,146388
+Streptococcus salivarius,1304,0.2,271,520
+Streptococcus_u_s,1301,0.14,184,59
+Streptococcus parasanguinis,1318,0.11,146,946
+Streptococcus sanguinis,1305,0.56,763,3854
+Streptococcus mutans,1309,0.12,161,171
+Anaerococcus provencensis,938293,0.41,565,7476
+Finegoldia magna,1260,0.06,88,78
+Veillonella_u_s,29465,0.09,118,15
+Cutibacterium acnes,1747,8.51,11631,354
+Cutibacterium granulosum,33011,0.31,430,664
+Propionibacterium sp. KPL1844,1203573,0.75,1021,7795
+Rothia dentocariosa,2047,0.14,190,2232
+Rothia mucilaginosa,43675,0.15,199,2285
+Kocuria palustris,71999,0.18,248,1162
+Kocuria marina,223184,0.08,103,2317
+Nesterenkonia massiliensis,1232429,0.19,255,5762
+Micrococcus luteus,1270,3.33,4552,5032
+Microbacterium sp. KROCY2,1305732,0.19,262,1297
+Brachybacterium paraconglomeratum,173362,0.17,226,4713
+Corynebacterium pseudodiphtheriticum,37637,0.48,656,4525
+Corynebacterium jeikeium,38289,0.13,175,49
+Corynebacterium propinquum,43769,6.37,8710,263785
+Corynebacterium pseudogenitalium,38303,2.79,3820,32232
+Corynebacterium tuberculostearicum,38304,2.66,3633,24840
+Corynebacterium minutissimum,38301,0.42,578,12676
+Corynebacterium sp. ATCC 6931,1487956,0.27,367,4168
+Corynebacterium ureicelerivorans,401472,0.1,132,2761
+Corynebacterium ihumii,1232427,0.08,117,2654
+Dietzia_u_s,37914,0.21,285,46
+Actinomyces odontolyticus,1660,0.19,260,1571
+Actinomyces viscosus,1656,0.34,465,3888
+Actinomyces sp. oral taxon 175,712119,0.27,376,2022
+Acinetobacter baumannii,470,1.44,1963,501
+Acinetobacter_u_s,469,0.12,161,61
+Acinetobacter lwoffii,28090,0.16,219,963
+Acinetobacter johnsonii,40214,0.23,318,1355
+Acinetobacter junii,40215,0.11,147,124
+Pseudomonas putida,303,0.11,151,221
+Haemophilus parainfluenzae,729,0.15,210,842
+Haemophilus_u_s,724,0.08,115,12
+Klebsiella oxytoca,571,0.2,267,404
+Raoultella ornithinolytica,54291,0.37,505,480
+Serratia_u_s,613,0.13,176,996
+Bordetella pertussis,520,0.1,135,260
+Neisseria sicca,490,0.55,746,44
+Neisseria_u_s,482,0.07,101,103
+Morococcus cerebrosus,1056807,0.21,280,1333
+Rhizobiaceae_u_s,82115,0.13,181,66
+Caulobacter sp. JGI 0001013-D04,1157680,0.1,139,2449

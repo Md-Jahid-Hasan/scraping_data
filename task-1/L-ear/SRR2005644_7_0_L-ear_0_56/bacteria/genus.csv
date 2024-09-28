@@ -1,0 +1,15 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus,1279,20.347009999999997,34975.12,11636
+Streptococcus,1301,3.84,2929,236
+Finegoldia,150022,1.97,1508,15764
+Anaerococcus,165779,0.28132999999999997,1069.99,7466
+Peptoniphilus,162289,0.15,113,1063
+Peptostreptococcus,1257,0.28,216,1629
+Corynebacterium,1716,21.82273,22171.05,62376
+Propionibacteriaceae_u_g,31957,1.6,1225,95
+Propionibacterium,1743,3.76,2873,19651
+Cutibacterium,1912216,1.82,1389,2449
+Micrococcus,1269,0.39,296,459
+Pasteurella,745,9.14,6978,117019
+Fusobacterium,848,0.61,463,1212
+Prevotella,838,0.23,173,81

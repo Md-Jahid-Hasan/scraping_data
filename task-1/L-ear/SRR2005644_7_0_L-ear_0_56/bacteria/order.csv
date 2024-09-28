@@ -1,0 +1,11 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Bacillales,1385,20.347009999999997,34975.12,11636
+Lactobacillales,186826,3.84,2929,236
+Tissierellales,1737405,1.98549,2691.0899999999997,24293
+Clostridiales,186802,0.28,216,1629
+Corynebacteriales,85007,21.82273,22171.05,62376
+Propionibacteriales,85009,1.65581,5487.16,22195
+Micrococcales,85006,0.39,296,459
+Pasteurellales,135625,9.14,6978,117019
+Fusobacteriales,203491,0.61,463,1212
+Bacteroidales,171549,0.23,173,81

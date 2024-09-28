@@ -1,0 +1,37 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,19.94,74221,20003
+Staphylococcus capitis,29388,30.58,113803,107545
+Staphylococcus sp. TE8,1472720,1.11,4144,6225
+Staphylococcus_u_s,1279,0.1,375,618
+Staphylococcus xylosus,1288,0.03,95,714
+Staphylococcus hominis,1290,0.24,879,451
+Brochothrix thermosphacta,2756,0.13,484,9044
+Leuconostoc carnosum,1252,0.07,276,2039
+Lactobacillus_u_s,1578,0.03,100,7
+Streptococcus_u_s,1301,0.02,78,35
+Veillonella_u_s,29465,0.02,78,12
+Corynebacterium accolens,38284,1.73,6441,9489
+Corynebacterium matruchotii,43768,0.06,214,2447
+Corynebacterium sp. KPL1857,1203564,16.95,63071,1037
+Corynebacterium tuberculostearicum,38304,13.55,50422,896080
+Corynebacterium pseudogenitalium,38303,12.67,47144,925886
+Corynebacterium ihumii,1232427,0.03,105,3002
+Corynebacterium striatum,43770,0.03,96,8553
+Corynebacterium aurimucosum,169292,0.02,76,6569
+Corynebacterium singulare,161899,0.02,75,7658
+Cutibacterium acnes,1747,0.86,3196,64
+Cutibacterium granulosum,33011,0.03,101,640
+Propionibacterium sp. 5_U_42AFAA,450748,0.85,3171,86
+Propionibacterium acidifaciens,556499,0.38,1417,8991
+Kocuria rhizophila,72000,0.03,121,1319
+Rothia_u_s,32207,0.03,95,668
+Rothia mucilaginosa,43675,0.03,109,539
+Micrococcus luteus,1270,0.1,385,377
+Actinomyces massiliensis,461393,0.04,165,1259
+Actinomyces naeslundii,1655,0.12,459,8291
+Actinomyces oris,544580,0.07,259,3419
+Actinomyces sp. oral taxon 180,651609,0.03,108,2361
+Actinomyces dentalis,272548,0.02,85,1785
+Neisseriaceae_u_s,481,0.03,129,15
+Neisseria flavescens,484,0.03,93,116
+Prevotella_u_s,838,0.02,82,152

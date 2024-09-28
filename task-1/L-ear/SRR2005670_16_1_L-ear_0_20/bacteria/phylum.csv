@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Firmicutes,1239,72.63605,147900.29,168333
+Actinobacteria,201174,0.28626999999999997,21956.56,182834
+Proteobacteria,1224,0.06641999999999999,1211.87,14741
+Bacteroidetes,976,0.17242000000000002,701.19,4964

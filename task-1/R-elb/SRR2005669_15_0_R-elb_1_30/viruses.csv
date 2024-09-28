@@ -1,0 +1,13 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Human immunodeficiency virus 1,11676,46.24,470257.0,5.7,5.7,4961
+Equine infectious anemia virus,11665,16.13,164092.0,1.88,1.88,4486
+Merkel cell polyomavirus,493803,27.03,274929.0,36.25,35.99,1223
+Staphylococcus phage Ipla5,1197952,1.21,12315.0,2.05,1.08,138
+Staphylococcus phage 47,320839,1.4,14261.0,2.58,3.44,20
+Staphylococcus phage StB12,1147042,1.07,10923.0,1.67,1.83,493
+Staphylococcus phage StB20,1147043,0.97,9910.0,1.63,1.61,344
+Escherichia virus HK022,10742,1.17,11870.0,2.02,4.3,209
+Acinetobacter phage Acj61,760732,1.5,15304.0,2.01,2.0,1459
+Escherichia virus P1,10678,1.91,19373.0,1.53,1.53,2817
+unclassified Picovirinae,1162303,0.8,8183.0,2.15,2.15,25
+Enterobacteria phage YYZ-2008,564886,0.55,5606.0,1.17,1.55,95

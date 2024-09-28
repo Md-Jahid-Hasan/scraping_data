@@ -1,0 +1,25 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus epidermidis,1282,20.09,15345,24
+Staphylococcus sp. JGI 0001002-I23,1157683,0.27,207,577
+Staphylococcus capitis,29388,17.83,13619,10665
+Staphylococcus lugdunensis,28035,1.03,790,9
+Staphylococcus_u_s,1279,0.18,137,237
+Staphylococcus aureus,1280,6.38,4876,124
+Streptococcus agalactiae,1311,3.84,2929,236
+Finegoldia magna,1260,1.97,1508,15764
+Anaerococcus hydrogenalis,33029,0.27,205,996
+Anaerococcus senegalensis,1288120,0.99,757,6173
+Anaerococcus_u_s,165779,0.14,108,297
+Peptoniphilus rhinitidis,1175452,0.15,113,1063
+Peptostreptococcus anaerobius,1261,0.28,216,1629
+Corynebacterium sp. KPL1856,1203563,21.75,16616,228
+Corynebacterium tuberculostearicum,38304,3.45,2635,24239
+Corynebacterium pseudogenitalium,38303,3.15,2402,25734
+Corynebacterium kroppenstedtii,161879,0.68,518,12175
+Propionibacteriaceae_u_s,31957,1.6,1225,95
+Propionibacterium sp. KPL1844,1203573,3.76,2873,19651
+Cutibacterium granulosum,33011,1.82,1389,2449
+Micrococcus luteus,1270,0.39,296,459
+Pasteurella bettyae,752,9.14,6978,117019
+Fusobacterium gonidiaformans,849,0.61,463,1212
+Prevotella bivia,28125,0.23,173,81

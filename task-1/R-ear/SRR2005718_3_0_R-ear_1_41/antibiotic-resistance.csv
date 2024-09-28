@@ -1,0 +1,4 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Aminoglycoside aadC,,-,73.74,2243417.0,46.3,46.3,3675
+Trimethoprim dfrC,,-,15.68,477112.0,73.98,73.98,325
+Macrolide msrA,,-,10.57,321668.0,42.24,42.24,920

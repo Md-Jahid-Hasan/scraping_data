@@ -1,0 +1,26 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Propionibacterium phage P101A,1229786,7.17,509626.0,12.14,3.28,1988
+Propionibacterium phage P100_1,1229791,5.34,379490.0,9.76,2.31,1657
+Propionibacterium phage PHL060L00,1235647,6.83,485714.0,11.65,2.79,1862
+Propionibacterium phage P9.1,1229782,7.01,498426.0,10.77,4.01,3364
+Propionibacterium phage PA6,376758,6.54,465453.0,10.3,3.41,3241
+Propionibacterium phage P105,1229788,5.95,423456.0,9.15,1.79,1625
+Propionibacterium phage PHL111M01,1235653,5.04,358122.0,9.72,3.15,2181
+Propionibacterium phage PAS50,504553,3.23,229489.0,8.57,1.9,945
+Propionibacterium phage PAD20,504501,2.97,211398.0,6.94,2.01,1363
+Propionibacterium phage PHL114L00,1235656,2.22,157633.0,3.8,1.51,2547
+Propionibacterium phage ATCC29399B_C,1229794,2.75,195465.0,6.08,2.42,551
+Propionibacterium phage P100D,1229789,6.49,461970.0,10.69,3.29,2707
+Propionibacterium phage P1.1,1229792,5.81,413492.0,9.84,1.72,1338
+Propionibacterium phage PHL112N00,1235654,5.29,376170.0,9.19,2.31,1832
+Propionibacterium phage PHL113M01,1235655,5.05,359067.0,10.33,3.1,1912
+Propionibacterium phage P14.4,1229784,4.88,347458.0,7.79,2.06,2292
+Propionibacterium phage P104A,1229787,3.65,259424.0,9.04,2.76,1691
+Propionibacterium phage PHL071N05,1235650,3.37,239581.0,8.55,2.57,1500
+Propionibacterium phage PHL067M10,1235649,3.62,257356.0,7.53,1.61,1139
+Staphylococcus phage StB20,1147043,1.71,121752.0,12.43,12.43,5041
+Siphoviridae,10699,4.36,309867.0,7.66,7.66,501
+Staphylococcus phage CNPH82,398839,0.19,13736.0,2.29,1.63,192
+Staphylococcus phage Ipla7,1197953,0.14,9619.0,1.64,1.48,257
+Phietavirus,1623298,0.33,23231.0,2.83,3.09,81
+unclassified Lambda-like viruses,335795,0.08,5523.0,1.29,1.26,47

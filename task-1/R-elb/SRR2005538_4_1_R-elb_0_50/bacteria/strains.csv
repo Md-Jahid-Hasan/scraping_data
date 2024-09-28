@@ -1,0 +1,43 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Kocuria sp. ZOR0020_u_t,1339234,0.05,87,6260
+Kocuria_u_t,57493,0.1,154,3299
+Micrococcaceae_u_t,1268,0.07,107,103
+Citricoccus sp. CH26A_u_t,1045009,0.16,254,16128
+Microbacterium_u_t,33882,0.29,457,80
+Microbacterium sp. KROCY2_u_t,1305732,5.87,9423,57521
+Leucobacter sp. UCD-THU_u_t,1292023,0.07,120,4116
+Knoellia_u_t,136099,0.16,255,27
+Serinicoccus_u_t,265976,0.08,136,368
+Cellulosimicrobium sp. MM_u_t,1523621,0.3,489,3661
+Mobilicoccus_u_t,984996,0.07,116,146
+Dietzia sp. UCD-THP_u_t,1292020,1.17,1885,61509
+Propionibacteriaceae_u_t,31957,0.13,216,21
+Bifidobacterium sp. MSTE12_u_t,1161409,0.09,148,626
+Pseudonocardia_u_t,1847,0.05,77,98
+Streptococcus sp. HSISM1_u_t,1316408,1.07,1718,11036
+Streptococcus_u_t,1301,0.08,131,447
+Staphylococcus sp. TE8_u_t,1472720,0.39,618,414
+Staphylococcus_u_t,1279,0.05,78,99
+Bacillus sp. EGD-AK10_u_t,1386080,0.62,1002,4067
+Gemella_u_t,1378,0.22,346,16
+Veillonella sp. ICM51a_u_t,936591,0.64,1030,1504
+Pseudomonas stutzeri group_u_t,136846,0.08,122,132
+Pseudomonas_u_t,286,1.29,2065,2270
+Pseudomonas sp. 313_u_t,1234594,0.68,1095,19422
+Acinetobacter_u_t,469,0.09,148,14
+Enterobacter cloacae complex_u_t,354276,0.06,98,736
+Enterobacter_u_t,547,0.05,77,11
+Serratia_u_t,613,0.29,460,2293
+Pantoea_u_t,53335,0.07,113,114
+Xanthomonadaceae_u_t,32033,0.07,107,685
+Roseomonas_u_t,125216,0.06,92,1416
+Rhizobium sp. H41_u_t,1510041,0.34,539,5460
+Agrobacterium sp. 33MFTa1.1_u_t,1279031,0.15,243,1956
+Ochrobactrum sp. CDB2_u_t,360313,0.07,106,2798
+Aureimonas_u_t,414371,0.08,136,9
+Paracoccus sp. PAMC 22219_u_t,1569209,0.11,185,4977
+Brevundimonas_u_t,41275,0.2,317,218
+Delftia sp. 670_u_t,1537702,0.35,559,1448
+Neisseria_u_t,482,0.06,104,112
+Prevotella_u_t,838,0.11,170,327
+Capnocytophaga_u_t,1016,0.11,173,8

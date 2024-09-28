@@ -1,0 +1,10 @@
+name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Merkel cell polyomavirus,493803,70.32,660667.0,69.39,69.49,3654
+Staphylococcus phage PH15,399185,2.72,25546.0,4.65,2.29,388
+Staphylococcus phage Ipla5,1197952,2.06,19390.0,3.71,2.51,343
+Staphylococcus phage CNPH82,398839,2.22,20856.0,3.35,3.63,492
+Staphylococcus phage Ipla7,1197953,1.31,12348.0,3.41,1.2,144
+Staphylococcus phage tp310-2,445516,1.66,15595.0,2.7,6.76,258
+Staphylococcus phage StB20,1147043,18.26,171550.0,18.44,18.3,5410
+Pa6virus,1982251,0.46,4360.0,1.08,1.08,9
+Propionibacterium phage PHL113M01,1235655,0.97,9157.0,1.95,1.02,36

@@ -1,0 +1,6 @@
+name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
+Staphylococcus aureus GI 33390919,,-,61.17,2782491.0,88.96,83.92,2990
+Staphylococcus aureus GENE thyA,,-,13.8,627933.0,84.54,84.54,776
+Staphylococcus aureus GI 33390939,,-,9.28,422201.0,66.67,66.67,109
+Staphylococcus aureus GI 33390920,,-,7.15,325427.0,62.42,62.42,132
+Staphylococcus epidermidis GeneID SEA1545,,-,8.59,390954.0,58.56,58.56,296

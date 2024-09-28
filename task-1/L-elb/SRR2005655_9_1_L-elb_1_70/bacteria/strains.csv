@@ -1,0 +1,5 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus_u_t,1279,8.02,172,25
+Veillonella_u_t,29465,3.77,81,13
+Propionibacteriaceae_u_t,31957,21.39,459,30
+Neisseriaceae_u_t,481,5.16,111,36

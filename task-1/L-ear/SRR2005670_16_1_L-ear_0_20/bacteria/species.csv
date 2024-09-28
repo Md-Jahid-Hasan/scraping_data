@@ -1,0 +1,46 @@
+name,tax_id,relative_abundance,abundance_score,hit_frequency
+Staphylococcus capitis,29388,72.5,124531,130146
+Staphylococcus sp. TE8,1472720,0.69,1188,2799
+Staphylococcus epidermidis,1282,10.85,18635,69
+Staphylococcus_u_s,1279,0.08,144,1398
+Staphylococcus hominis,1290,0.1,167,47
+Brochothrix thermosphacta,2756,0.88,1518,26603
+Streptococcus_u_s,1301,0.14,238,609
+Leuconostoc carnosum,1252,0.22,386,2776
+Abiotrophia defectiva,46125,0.07,112,1987
+Veillonella sp. 3_1_44,457416,0.22,384,302
+Veillonella parvula,29466,0.27,461,476
+Selenomonas noxia,135083,0.08,137,1121
+Corynebacterium matruchotii,43768,0.16,268,3244
+Corynebacterium accolens,38284,0.07,117,190
+Corynebacterium pseudogenitalium,38303,3.8,6526,72800
+Corynebacterium tuberculostearicum,38304,3.68,6314,57632
+Corynebacterium sp. KPL1818,1203559,0.12,212,835
+Corynebacterium kroppenstedtii,161879,0.11,184,4239
+Corynebacterium durum,61592,0.05,91,2333
+Cutibacterium acnes,1747,1.45,2495,25
+Propionibacterium sp. 5_U_42AFAA,450748,1.44,2470,34
+Pseudopropionibacterium propionicum,1750,0.06,95,2328
+Actinomyces massiliensis,461393,0.21,365,2836
+Actinomyces odontolyticus,1660,0.05,86,523
+Actinomyces naeslundii,1655,0.54,924,16230
+Actinomyces oris,544580,0.2,345,3752
+Actinomyces viscosus,1656,0.19,330,2611
+Actinomyces dentalis,272548,0.15,251,4822
+Actinomyces sp. oral taxon 448,712124,0.14,232,4593
+Actinomyces gerencseriae,52769,0.07,115,1873
+Rothia aeria,172042,0.1,168,635
+Rothia dentocariosa,2047,0.12,198,1269
+Micrococcus luteus,1270,0.1,170,30
+Neisseria sicca,490,0.06,110,23
+Neisseria_u_s,482,0.06,99,106
+Neisseria flavescens,484,0.07,127,1107
+Neisseria elongata,495,0.07,114,2141
+Neisseria sp. oral taxon 014,641148,0.05,94,1942
+Morococcus cerebrosus,1056807,0.18,312,1696
+Lautropia mirabilis,47671,0.21,357,7726
+Prevotella_u_s,838,0.17,284,372
+Tannerella sp. oral taxon HOT-286,712710,0.06,97,83
+Capnocytophaga_u_s,1016,0.08,131,844
+Capnocytophaga gingivalis,1017,0.06,100,1955
+Capnocytophaga sputigena,1019,0.05,89,1710
