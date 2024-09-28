@@ -14,19 +14,19 @@ PASSWORD={postgres_password}
 
 1. Python 3, pip, and virtualenv must be installed on your system.
 2. Create a virtual environment and activate it:<br>
-   Create a virtual environment -
+   * Create a virtual environment -
     ```
     virtualenv venv
     ```
-   Activate the virtual environment - <br>
-   for ubuntu
-    ```
-    source venv/bin/activate
-    ```
-   for windows
-    ```
-    venv\Scripts\activate
-    ```
+   * Activate the virtual environment - <br>
+     * for ubuntu
+       ```
+        source venv/bin/activate
+       ```
+     * for windows
+        ```
+         venv\Scripts\activate
+        ```
 3. Install the required dependencies by running the following command:
    ```
    pip install -r requirements.txt
