@@ -9,6 +9,7 @@ class Database:
         self.connection = self.connect()
         if self.connection:
             self.create_tables_if_not_exists()
+
     def connect(self):
         """This method is responsible for connecting to the database."""
         try:
@@ -27,6 +28,7 @@ class Database:
     def close_connection(self):
         if self.connection:
             self.connection.close()
+            self.connection = None
 
     def create_tables_if_not_exists(self):
         try:
@@ -50,7 +52,7 @@ class Database:
                 "data_info integer, CONSTRAINT taxonomy_data_info FOREIGN KEY(data_info) REFERENCES data_info(id));")
             self.connection.commit()
 
-            self.connection.close()
+            self.close_connection()
         except Exception as e:
             print(f"Failed to create table because: {str(e)}")
     
