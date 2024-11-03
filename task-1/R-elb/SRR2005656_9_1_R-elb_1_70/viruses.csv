@@ -1,7 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Propionibacterium phage P105,1229788,16.51,26064.0,4.32,1.79,80
-Propionibacterium phage PHL060L00,1235647,13.8,21782.0,3.66,1.53,81
-Propionibacterium phage PHL113M01,1235655,17.25,27226.0,4.82,2.05,72
-Human papillomavirus type 50,40539,35.94,56726.0,9.19,9.19,372
-Human papillomavirus type 166,1315259,7.22,11390.0,2.32,2.32,104
-Human immunodeficiency virus 1,11676,9.28,14643.0,3.43,3.43,57

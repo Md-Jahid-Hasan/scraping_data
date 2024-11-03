@@ -1,8 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-MDR-Efflux-pump qacA,,-,12.27,353922.0,51.34,56.91,120
-Aminoglycoside aadC,,-,13.86,399881.0,59.92,59.92,325
-Aminoglycoside aadD,,-,11.99,345949.0,53.55,53.55,339
-Macrolide lnuA,,-,11.4,328766.0,48.74,48.74,357
-Tetracycline tetK,,-,10.1,291479.0,42.41,42.41,537
-Beta-lactam-resistance bla 1022 1943 4 Branch,,-,24.22,698589.0,46.71,46.71,1014
-Beta-lactam-resistance blaOXA 282 Branch,,-,16.16,466121.0,56.67,56.67,17

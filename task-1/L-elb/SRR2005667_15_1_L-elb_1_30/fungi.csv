@@ -1,7 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Malassezia restricta CBS 7877,425264,74.31,25388.0,2.93,2.92,4176
-Malassezia globosa CBS 7966,425265,4.93,1683.0,0.27,0.27,372
-Puccinia arachidis,333523,5.73,1957.0,0.21,0.2,1028
-Balansia obtecta B249,1405085,10.82,3697.0,0.52,0.53,790
-Trichoderma,5543,2.45,836.0,0.15,0.14,69
-Debaryomyces hansenii CBS767,284592,1.77,604.0,0.12,0.11,165

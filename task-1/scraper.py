@@ -6,6 +6,8 @@ import os
 import requests
 import aiohttp
 
+from data_saver import DataSaver
+
 
 class Scraper:
     login_url = "https://app.cosmosid.com/api/v1/login"
@@ -18,9 +20,10 @@ class Scraper:
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
     }
 
-    def __init__(self):
+    def __init__(self, data_saver: DataSaver):
         """authorization_token is the hash format of credentials. Endpoint don't accept the user credential
         It only accepts the hash format of credentials."""
+        self.data_saver = data_saver
         self.authorization_token = "ZGVtb19lc3RlZTJAY29zbW9zaWQuY29tOnh5emZnMzIx"
         with open(self.file_location, "r") as file:
             self.file_data = json.load(file)
@@ -40,7 +43,6 @@ class Scraper:
         else:
             # get folder information
             self.folder_information = self.get_folder_data()
-
             # parsing each folder and download data for each sample
             asyncio.run(self.parsing_folder())
 
@@ -161,16 +163,7 @@ class Scraper:
         except Exception as e:
             print(f"Failed to format data for downloading inside download_data, because: {e}")
 
-        try:
-            directory = f"{folder}/{sample_name}"
-            file_name = f"{result_name}.csv"
-            filepath = os.path.join(directory, file_name)
-            os.makedirs(directory, exist_ok=True)
-            with open(filepath, mode="w", newline="") as file:
-                writer = csv.writer(file)
-                writer.writerows(all_data)
-        except Exception as e:
-            print(f"Failed to save data for {filepath} because: {e}")
+        self.data_saver.save_file(folder, sample_name, result_name, all_data)
 
     def prepare_table_data_for_bacteria(self, response, folder, sample_name):
         """This method only prepare and download bacteria and its taxonomy data as csv
@@ -389,5 +382,3 @@ class Scraper:
         except Exception as e:
             print(f"Failed to get sample data for id {folder_id} because: {e}")
             return []
-
-Scraper()

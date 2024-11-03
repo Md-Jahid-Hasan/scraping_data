@@ -1,6 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Macrolide vgaA 2099 Branch,,-,22.17,784821.0,61.55,61.55,1046
-Tetracycline tet 2374 Branch,,-,3.92,138660.0,47.83,47.83,11
-Trimethoprim dfrC,,-,27.81,984152.0,93.9,93.9,1031
-Macrolide ermX,,-,23.63,836468.0,51.87,51.87,2311
-Macrolide msrA,,-,22.47,795267.0,61.84,61.84,3604

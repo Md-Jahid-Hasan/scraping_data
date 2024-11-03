@@ -1,7 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Malassezia restricta CBS 7877,425264,65.67,18507.0,2.21,2.2,3139
-Malassezia globosa CBS 7966,425265,4.39,1237.0,0.21,0.21,298
-Puccinia arachidis,333523,4.6,1297.0,0.18,0.17,576
-Balansia obtecta B249,1405085,13.83,3898.0,0.56,0.55,851
-Trichoderma,5543,9.58,2701.0,0.39,0.38,188
-Alternaria arborescens EGS 39-128,1122867,1.92,541.0,0.12,0.1,145

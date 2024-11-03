@@ -1,8 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Staphylococcus aureus GI 33390919,,-,11.56,315364.0,59.74,42.71,197
-Staphylococcus aureus GENE 1600 Branch,,-,32.34,882340.0,49.47,49.47,95
-Staphylococcus aureus GENE ica 1623 Branch,,-,14.44,394027.0,100.0,100.0,8
-Staphylococcus aureus GI 33390975,,-,7.17,195711.0,49.41,49.41,42
-Staphylococcus lentus GENE ermC,,-,18.37,501218.0,73.27,73.27,445
-Staphylococcus lentus GENE repL,,-,12.44,339325.0,47.69,47.69,296
-Staphylococcus lentus GI 60416748,,-,3.69,100745.0,50.0,50.0,6

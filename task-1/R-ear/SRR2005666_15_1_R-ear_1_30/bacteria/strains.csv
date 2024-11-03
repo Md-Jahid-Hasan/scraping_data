@@ -1,9 +1,0 @@
-name,tax_id,relative_abundance,abundance_score,hit_frequency
-Staphylococcus_u_t,1279,0.29,126,1556
-Jeotgalicoccus_u_t,227979,0.21,93,76
-Propionibacteriaceae_u_t,31957,0.33,144,41
-Acinetobacter_u_t,469,0.31,134,215
-Acinetobacter sp. MDS7A_u_t,1209355,0.44,191,2302
-Pseudomonas sp. 1-7_u_t,633150,1.37,594,10410
-Aeromonas_u_t,642,0.21,91,9
-Porphyromonas_u_t,836,0.4,171,15

@@ -1,6 +1,0 @@
-name,accession_id,class,relative_abundance,abundance_score,total_matches,unique_matches,unique_matches_frequency
-Tetracycline tetK,,-,70.82,15902861.0,98.38,98.38,62683
-Trimethoprim dfrC,,-,18.96,4257985.0,87.4,87.4,6152
-Aminoglycoside aadD,,-,4.61,1034595.0,91.26,91.26,1542
-bleomycin resistance protein BRP,,-,2.26,508042.0,59.49,59.49,616
-Beta-lactam-resistance bla 1022 1943 4 Branch,,-,3.34,750803.0,54.49,54.49,968
