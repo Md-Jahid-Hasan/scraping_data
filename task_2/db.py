@@ -1,10 +1,11 @@
 import os
 import psycopg2
 from dotenv import load_dotenv
+from scraping_data.task_1.data_saver import DataSaver
 load_dotenv()
 
 
-class Database:
+class Database(DataSaver):
     def __init__(self):
         self.connection = self.connect()
         if self.connection:
@@ -56,7 +57,7 @@ class Database:
         except Exception as e:
             print(f"Failed to create table because: {str(e)}")
     
-    def save_result_data(self, data, folder, sample_name, result_name):
+    def save_file(self, folder, sample_name, result_name, data):
         if not self.connection:
             self.connection = self.connect()
         cursor = self.connection.cursor()
@@ -78,7 +79,7 @@ class Database:
                 except Exception as e:
                     print(f"Failed to save data for {folder}/{sample_name}/{result_name} because: {str(e)}")
 
-    def save_taxonomy_data(self, data, folder, sample_name, key):
+    def save_bacteria_data(self, folder, sample_name, data, key):
         if not self.connection:
             self.connection = self.connect()
         cursor = self.connection.cursor()
@@ -114,6 +115,3 @@ class Database:
         except Exception as e:
             print(f"Failed to save or get data_info for {folder}/{sample_name}/{result} because: {str(e)}")
             return None
-
-
-Database()
