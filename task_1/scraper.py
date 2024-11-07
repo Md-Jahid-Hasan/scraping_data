@@ -41,6 +41,7 @@ class Scraper:
         else:
             # get folder information
             self.folder_information = self.get_folder_data()
+            print(self.folder_information)
             # parsing each folder and download data for each sample
             asyncio.run(self.parsing_folder())
 
@@ -65,6 +66,7 @@ class Scraper:
                     all_sample[folder_name] = result[_]
         except Exception as e:
             print(f"Failed to get and mapped sample data because: {e}")
+        print(all_sample)
 
         # iterate over all sample and generate analysis id for each sample then asynchronously call get_table_data
         # function for retrieve data
