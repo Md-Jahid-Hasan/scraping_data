@@ -5,7 +5,6 @@ import threading
 
 import requests
 import aiohttp
-import concurrent.futures
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
