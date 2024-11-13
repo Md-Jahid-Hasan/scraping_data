@@ -1,15 +1,20 @@
 import json
 import asyncio
 import time
+import threading
 
 import requests
 import aiohttp
+import concurrent.futures
 
-
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 from data_saver import DataSaver
 
@@ -38,8 +43,8 @@ class Scraper:
         # if not self.file_data.get('token'):
         self.token = self.generate_token()
         # self.file_data['token'] = self.token
-            # with open(self.file_location, "w") as file:
-            #     json.dump(self.file_data, file, indent=4)
+        # with open(self.file_location, "w") as file:
+        #     json.dump(self.file_data, file, indent=4)
         # else:
         #     self.token = self.file_data['token']
 
@@ -56,8 +61,19 @@ class Scraper:
         file.close()
 
     def get_selenium_browser(self):
-        service = Service('chromedriver.exe')
-        browser = webdriver.Chrome(service=service)
+        options = Options()
+        # options.add_argument('--headless')
+        options.add_argument("user-data-dir=/var/www/python_proj_personal/scraping_data/task_1/profile")
+        options.add_experimental_option("prefs", {
+            "profile.managed_default_content_settings.images": 2,  # Disable images
+            "profile.managed_default_content_settings.stylesheets": 2,  # Disable CSS
+            # "profile.managed_default_content_settings.javascript": 2  # Disable JS (if not required)
+        })
+
+        service = Service('/var/www/python_proj/chromedriver')
+        browser = webdriver.Chrome(options=options, service=service)
+        browser.get("https://app.cosmosid.com/sign-in")
+        browser.execute_script(f"window.localStorage.setItem('user', '{json.dumps(self.localstorage_value)}')")
         return browser
 
     async def parsing_folder(self):
@@ -80,20 +96,102 @@ class Scraper:
         except Exception as e:
             print(f"Failed to get and mapped sample data because: {e}")
 
+        threads = []
         for sample in all_sample:
-            self.get_table_data(all_sample[sample])
+            # print(sample, len(all_sample[sample]))
+            # t = threading.Thread(target=self.get_table_data, args=(all_sample[sample], sample))
+            # threads.append(t)
+            # t.start()
+            self.get_table_data(all_sample[sample], sample)
             break
 
-    def get_table_data(self, sample):
+        # for thread in threads:
+        #     thread.join()
+
+    def get_table_data(self, sample, sample_name):
+        # with concurrent.futures.ThreadPoolExecutor(15) as executor:
+        browser = self.get_selenium_browser()
+
         for data in sample:
-            print(data)
-            browser = self.get_selenium_browser()
-            url = f"https://app.cosmosid.com/samples/{data['uuid']}"
-            browser.get("https://app.cosmosid.com/sign-in")
-            browser.execute_script(f"window.localStorage.setItem('user', '{json.dumps(self.localstorage_value)}')")
-            browser.get(url)
-            browser.implicitly_wait(10)
-            time.sleep(10)
+            try:
+                print(data, sample_name)
+                url = f"https://app.cosmosid.com/samples/{data['uuid']}"
+                # browser.implicitly_wait(10)
+                browser.get(url)
+
+                content = WebDriverWait(browser, 20).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "table"))
+                )
+
+                self.load_data_page(browser)
+            except Exception as e:
+                print(f"Failed to get data for {data['uuid']} because: {e}")
+                continue
+
+    def load_data_page(self, browser):
+        self.save_table_data(browser)
+
+        container = browser.find_element(By.XPATH, '//*[@id="analysis-select"]').click()
+        # container = browser.find_element(By.CSS_SELECTOR, "ul[aria-labelledby='analysis-select-label']")
+
+        try:
+            next_analysis = WebDriverWait(browser, 3).until(
+                EC.element_to_be_clickable((By.XPATH, "//ul[@aria-labelledby='analysis-select-label']//li[@tabindex='0']/following-sibling::li"))
+            )
+        except TimeoutException:
+            print("No analysis left")
+            next_analysis = None
+        except Exception as e:
+            print(f"No analysis left: {e}")
+            next_analysis = None
+
+        # next_analysis = container.find_element(By.XPATH, "//li[@tabindex='0']//following-sibling::li")
+        # next_analysis = current_analysis.find_element(By.XPATH, "following-sibling::li")
+
+        if next_analysis:
+            next_analysis.click()
+            content = WebDriverWait(browser, 20).until(
+                EC.any_of(
+                    EC.presence_of_element_located((By.TAG_NAME, "table")),
+                    EC.text_to_be_present_in_element((By.TAG_NAME, "h2"), "No data to display")
+                )
+            )
+            self.load_data_page(browser)
+
+    def save_table_data(self, browser, results="backteria"):
+        content = browser.page_source
+        soup = BeautifulSoup(content, 'html.parser')
+        data = self.prepare_table_data(soup)
+        time.sleep(3)
+        print(len(data))
+
+        if len(data):
+            button = browser.find_element(
+                By.XPATH, '//*[@id="scrollable-force-tabpanel-0"]/div/div/div[3]/div/div/div/div[2]/span[2]/button')
+            class_name = button.get_attribute("class")
+
+            if "Mui-disabled" not in class_name.split():
+                button.click()
+                self.save_table_data(browser)
+
+    def prepare_table_data(self, soup: BeautifulSoup):
+        data = []
+        table = soup.find('table')
+        if not table:
+            return data
+        thead = table.find("thead").find_all("th")
+        header = [th.text for th in thead]
+        data.append(header)
+
+        rows = table.find("tbody").find_all("tr")
+
+        for row in rows:
+            try:
+                all_td = row.find_all("td")
+                data.append([td.text for td in all_td])
+            except:
+                continue
+        return data
 
     def generate_token(self) -> str:
         """Manually login user and generate a token for authorization here authorization_token is the hash format
